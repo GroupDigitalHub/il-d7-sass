@@ -1,0 +1,1618 @@
+
+.wow {
+  visibility: hidden;
+}
+/*this the resized banner for mobile*/
+#zone-preface-wrapper {
+	
+	position:relative !important;
+	background-image: url('/sites/retail/files/top-banner-mobile.png');
+	background-position: center !important;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	
+}
+div#zone-preface-wrapper:before {
+	content: '';
+	position:absolute;
+	top:100%;
+	left:-40%;
+	width:100%;
+	height:100%;
+	background:#fff;
+	transform-origin: right;
+	transform: skewY(8deg);
+	
+}
+div#zone-branding-wrapper {
+    display: none;}
+	
+div#zone-content-wrapper {
+
+	padding-top: 60px;
+	
+}
+#block-block-133 {
+    padding-bottom:100px;
+}
+
+#block-block-131 {
+    padding-bottom:100px;
+}
+.product-header {
+	padding-top:60px;
+}
+.product-header .fa{
+	padding-right: 500px;
+    padding-bottom: 25px;	
+}
+.product-header a{
+	color:#333 !important;	
+}
+div#zone-preface-wrapper:after {
+	content: '';
+	position:absolute;
+	top:100%;
+	right:-60%;
+	width:100%;
+	height:100%;
+	background:#fff;
+	transform-origin: left;
+	transform: skewY(-8deg);
+}
+.clearfix:after {
+	visibility:inherit;
+}
+/*Styling for megaslider*/
+
+.front
+	{
+		background-color: $very_light_grey !important;
+	}
+
+#region-home-md-slider
+{
+	margin-left:0px;
+	width:100%;
+	.fa-li {
+		font-size: 0.8em; 
+		padding: 0px;
+	}
+	
+	li{
+		list-style-type: none;
+	}
+	
+}
+
+.md-slider-button{
+	a {
+		background-color: $teal;
+		color: $white;
+		display: block;
+		width: 250px;
+		text-align: center;
+		text-decoration: none;
+		font-size: 1.1em;
+		margin-top: 0.714em;
+		padding: 0.357em;
+		font-weight: 700;
+	}
+	a:hover{
+		@extend %hover_box_shadow;
+	}
+	
+	.md-slider-button h2{
+	
+		color: $white;
+	}
+	
+}
+
+
+/*
+.md-objects{
+	border-bottom: 1px dotted #cccccc;
+}
+*/
+.md-bullet, .md-bullet a, .md-current{
+	border-radius: 0px;
+}
+
+
+/*-----------------------*/
+
+/*New homepage styling*/
+
+			/*Rounded List*/
+			.rounded-list{
+				counter-reset: li;
+				margin-left: 1.1em;
+			}
+			
+			.rounded-list li{
+				position: relative;
+				display: block;
+				padding: 0em 0em 0em 2em;
+				*padding: .4em;
+				margin: .5em 0;
+				text-decoration: none;
+				border-radius: .3em;
+				transition: all .3s ease-out;  
+				width: 80%;	
+			}
+
+			.rounded-list a:hover{
+				background: #eee;
+			}
+
+			.rounded-list a:hover:before{
+				transform: rotate(360deg);  
+			}
+
+			.rounded-list li:before{
+				content: counter(li);
+				counter-increment: li;
+				position: absolute; 
+				left: -1.3em;
+				top: 50%;
+				margin-top: -1.3em;
+				height: 1.8em;
+				width: 1.8em;
+				line-height: 1.8em;
+				border: 2px solid #50C9B5;
+				text-align: center;
+				font-weight: bold;
+				border-radius: 1.8em;
+				transition: all .3s ease-out;
+			}
+			/*--*/
+
+.product-box-text {
+	color: #606060;
+    margin-top: 25px;
+}
+
+#region-banner-left{
+    color: #ffffff;
+	h1{
+		color: #ffffff;
+	}
+	.introducing-il:after{
+		content: "\f078";
+		}
+}
+
+.banner-left-image{
+	max-width: 100%;
+}
+
+.banner-right-image{
+	max-width: 100%;
+}
+.banner-text-box {
+	background-color: #5261ac;
+	padding: 10px;
+	height: auto;
+	margin-top: 45%;
+}
+
+.banner-sign-up-box {
+	border: 2px solid #fff;
+	width: 30%;
+	height: auto;
+	text-align: center;
+	padding: 5px;
+}
+
+#region-banner-right{
+		margin: 10px 10px;
+		color: #fff;
+	h1, h2{
+		color: #ffffff;
+	}	
+	h4{
+		color: #ffffff;
+		background-color: #002664;
+		padding: 8px;
+		-webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+		-moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+		box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+	}
+	.form-group{
+		margin-bottom: 30px;
+	}
+	
+}
+
+.privacy{
+	font-size: 0.9em;
+		a{
+			color: #fff;
+			}
+		a:hover{
+			color: #50C9B5;
+		}	
+}
+
+#zone-intro{
+	width: 100%;
+}
+
+.banner-curve{
+    content: " ";
+    position: absolute;
+    bottom: 97%;
+    left: 0px;
+    width: 100%;
+    height: 0;
+   /* background-image: url(/sites/retail/files/curve.svg);*/
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 100% 100%;
+    z-index: 3;
+    padding-bottom: 6%;
+}
+
+.banner-shard{
+    content: " ";
+    position: absolute;
+    bottom: 97%;
+    left: 0px;
+    width: 100%;
+    height: 0;
+    background-image: url(sites/retail/files/white-mask-shard.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 100% 100%;
+    z-index: 3;
+    padding-bottom: 6%;
+}
+	
+#region-front-page-intro{
+	background-color: #ffffff;
+    width: 100%;
+    margin-left: 0;
+	}
+
+.views-field.views-field-view-node {
+    height: 90px;
+	overflow-wrap: break-word;
+}
+
+
+#zone-homepage-products-wrapper{
+	background-color: #ffffff;
+}	
+	
+#zone-homepage-products{
+	/*width:	100%;*/
+	#region-front-page-products-pensions, #region-front-page-products-investments, #region-front-page-products-life-insurance,  #region-front-page-products-health  {
+		a{
+			text-decoration: none;
+			color: #777777;
+		}
+		
+		.views-field-field-basic-web-page-url-label a{
+			color: #ffffff;
+		}
+		
+		ul li{
+			display: block;
+			margin-left: 0px;
+			a:hover{
+				color: #5261AC;
+				border-bottom: solid #5261AC 1px;
+			}
+		}
+		
+		ul li:before{
+			color: #50C9B5;
+			margin: 0 5px 0 0px;
+			content: none;
+			}
+	}
+}	
+
+#region-front-page-products-pensions, #region-front-page-products-investments,#region-front-page-products-life-insurance,#region-front-page-products-health{
+	
+	.product-header{
+		margin: auto;
+		text-align: center;
+		background-color: #5261AC;
+		/* width: 110%; */
+		margin-left: -11px;
+		margin-right: -11px;
+		margin-top: -11px;
+		padding-top: 21px;
+		padding-bottom: 41px;
+	}
+	
+	.fa {
+		    margin-left: 20px;
+			color: #A4ABCD;
+			font-size: 59px;
+			margin-top: 20px;
+	}
+	.fa:before{
+		border: #4A589B;
+		border-radius: 153px;
+		background-color: #4A589B;
+		border: 25px #4A589B solid;
+	}
+	
+	ul{
+		text-align: center;
+		font-weight: bold;	
+	}
+	
+}
+
+#region-front-page-products-health{
+		/*margin-left: 15px;
+		margin-right: 0px;*/
+}
+
+.region-front-page-content-second-item-inner{
+	h2{
+		font-size: 2.143em !important;
+		color: #ffffff;
+	}
+	.why-il{
+		h4{
+			color: #5261AC;
+		}
+		h4:before{
+			color: #5261AC;
+		}
+	}
+}
+
+#region-front-page-content-first-item, #region-front-page-content-third-item, #region-front-page-content-fifth-item{
+	text-align: center;
+	h2{
+		font-size: 2.143em !important;
+		line-height: 1.2em;
+		margin-right: 20px;
+		margin-left: 10px;
+	}
+	p{
+		margin: 20px 20px 40px 10px;
+	}
+	.views-field-field-basic-web-page-url-label{
+		width: 40%;
+		padding-left: 10px;
+	}
+}
+
+/*vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvFEEFO STYLINGvvvvvvvvvvvvvvvvvvvvvvvvvvv*/
+
+#region-front-page-content-feefo-link{
+	img{
+		margin-left: 25%;
+		margin-top: 23px;
+	}
+	
+}
+
+.feefo-review-carousel-widget-service{
+	text-align: center;
+}
+
+.feefowidget-feefo-logo{
+	display: none;
+}
+
+
+
+#zone-homepage-content-feefo-wrapper{
+		padding-top: 30px;
+	}
+	
+	.zone-homepage-content-feefo{
+		    border: 2px #edeaed solid;
+	}
+	
+	.region-front-page-content-feefo-text-inner{
+		margin: 5% 10% 0% 10%;
+		text-align: center;
+		h2{
+			font-size: 2.143em !important;
+			margin-bottom: 2%;
+		}
+	}
+	
+	
+
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^END FEEFO STYLING^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+.zone-content-wrapper {
+	background-color: $white;
+}
+.contact-us-button a:link 
+{
+	background-color: #24847c;
+    color: #ffffff !important;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.1em;
+    margin-top: 0.714em;
+    padding: 0.357em;
+	margin-left: 30%;
+    margin-right: 30%;
+    width: 40%;
+    margin-bottom: 20px;
+	
+}
+.block-button-left {
+
+	background-color: #24847c;
+    color: #ffffff !important;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.1em;
+    margin-top: 0.714em;
+    padding: 0.357em;
+    /*font-weight: 700;*/
+    /*margin-left: 10px;*/
+	width: 196px;
+	margin-bottom: 20px;
+}
+
+.block-button-right {
+
+	background-color: #fff;
+    color: #24847c !important;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.1em;
+    margin-top: 0.714em;
+    padding: 0.357em;
+    /*font-weight: 700;*/
+    margin-left: 10px;
+	width: 196px;
+	border: 2px solid #24847c;
+	margin-bottom: 20px;
+}
+
+/*<<<<<<<<<<<<<<<<<<<<<ZONE PARRALLAX BACKGROUND IMAGES>>>>>>>>>>>>>>>>>>>*/
+					.zone-homepage-content-second-item-wrapper,  .zone-homepage-content-fourth-item-wrapper, .zone-homepage-content-sixth-item-wrapper{
+						background-repeat: no-repeat !important;
+						background-attachment: fixed !important;
+						background-position: center !important;
+						background-size: cover !important;
+						h2{
+							text-align: center;
+							font-size: 2.143em !important;
+							line-height: 1.2em;
+							color:  #333;
+						}
+						h3{
+							font-size: 2.2em !important;
+							color:  #333 !important;
+						}
+						
+						.views-field-field-basic-web-page-url-label{
+							 width: 40%;
+							 margin: auto;
+							 
+						}
+					}
+
+					.zone-homepage-content-second-item-wrapper {
+						background-image: url("/sites/retail/files/IrishLife-whatif.jpg") !important;
+					}
+						
+					.zone-homepage-content-fourth-item-wrapper{
+						background-color: $white !important;
+						/*background-image: url(https://www.irishlife.ie/sites/retail/files/new_careers_bw.jpg) !important;*/
+						p{
+							margin: 40px 0px 40px 0px;
+							font-size: 1.2em;
+						}
+					}
+
+					.zone-homepage-content-sixth-item-wrapper{
+						background-image: url(https://www.irishlife.ie/sites/retail/files/map.jpg) !important;
+					}
+				/*<<<<<<<<<<<<<<<<<<<<<END PARRALLAX>>>>>>>>>>>>>>>>>>>*/
+				
+				
+				
+/*-------------------------------*/
+
+h2 .block-title {
+    font-size: 2em;
+	text-align:center;
+	
+	}
+
+#region-front-page-products-pensions, #region-front-page-products-investments,#region-front-page-products-life-insurance,#region-front-page-products-health{
+	
+	
+	
+	/*@extend %landingPageBlockContainer;*/
+	.region-inner{
+		padding: 0.786em;
+		}
+	p{
+		margin-bottom: 5px;
+	}
+	
+
+	h2 {
+		text-align:center;
+		color: #5261AC;
+		font-weight: bold;
+		margin-top: 20px;
+	}
+	
+	
+	.views-field-title{
+			
+		}
+	.views-field-field-basic-web-page-summary{
+		display:inline-block;
+		width:60%;
+	}
+	
+	.views-row{
+			padding-bottom: 20px;
+			border-bottom: $thin_dotted;
+		}
+	.views-row-last{
+		padding-bottom: 0px;
+		border-bottom: none;
+	}
+	
+	.views-field-field-basic-web-page-url-label{
+			opacity:1.2;
+			display:block;
+		}
+	.region-inner{
+		
+		/*background: #ffffff !important;*/
+		border: solid 2px #5261AC;
+		padding-top:10px !important;
+	}
+	
+
+}
+
+#zone-homepage-content-first-item-wrapper{
+	background: $white;
+	padding-top: 5%;
+}
+
+#zone-homepage-content-feefo-wrapper{
+	background: $white;
+}
+
+
+
+#zone-homepage-content-third-item-wrapper, #zone-homepage-content-fifth-item-wrapper, #zone-homepage-content-seventh-item-wrapper{
+	background: $white;
+}
+
+ #zone-homepage-content-fourth-item-wrapper, #zone-homepage-content-sixth-item-wrapper, #zone-homepage-content-eighth-item-wrapper{
+	background: $white;
+	height: 360px;
+}
+#zone-homepage-content-second-item-wrapper {
+
+	height: 740px;
+}
+/*STyling for front page content items*/
+#region-front-page-content-first-item, #region-front-page-content-second-item, #region-front-page-content-third-item, #region-front-page-content-fourth-item, #region-front-page-content-fifth-item, #region-front-page-content-sixth-item, #region-front-page-content-seventh-item, #region-front-page-content-eigth-item{
+	margin: 0px 0px 0px 0px;
+}
+
+.mobile-services-login a{
+	margin: auto !important;
+    background-color: #5261AC !important;	
+}
+
+.mobile-services-login a:hover{
+	box-shadow: none !important;
+}
+
+
+
+/*Breakpoint for mobile screens below 450px*/
+@media only screen and (max-width: 450px) {
+	.contact-us-button a:link{background-color: #24847c;
+		color: #ffffff !important;
+		display: inline-block;
+		text-align: center;
+		text-decoration: none;
+		font-size: 1.1em;
+		margin-top: 0.714em;
+		padding: 0.357em;
+		margin-left: 10px;
+		margin-left: 30%;
+		margin-right: 30%;
+		width: 40%;
+		margin-bottom: 20px;
+		
+	}
+	.block-button-left {
+
+		background-color: #24847c;
+		color: #ffffff !important;
+		display: inline-block;
+		text-align: center;
+		text-decoration: none;
+		font-size: 1.1em;
+		margin-top: 0.714em;
+		padding: 0.357em;
+		/*font-weight: 700;*/
+		margin-left: 10px;
+		width: 40%;
+		margin-bottom: 20px;
+	}
+	
+	.block-button-right {
+	
+		background-color: #fff;
+		color: #24847c !important;
+		display: inline-block;
+		text-align: center;
+		text-decoration: none;
+		font-size: 1.1em;
+		margin-top: 0.714em;
+		padding: 0.357em;
+		/*font-weight: 700;*/
+		margin-left: 10px;
+		width: 40%;
+		border: 2px solid #24847c;
+		margin-bottom: 20px;
+	}   
+.mobile-grey-line {
+		border-bottom: 1px solid grey;
+		opacity: 0.5;
+	}
+
+@media only screen and (max-width: 450px) {
+#block-block-133 {
+    padding-bottom: 0px;}}
+    
+.block-md-slider{
+	display: none;
+}
+
+.product-header .fa{
+	padding-right: 10px;
+	padding-bottom: 25px;
+	margin-left: 10px;	
+}
+.product-header a{
+	color:#333 !important;	
+}
+/*New home page stuff*/
+
+	
+#zone-homepage-products{
+	padding-top: 5%;
+	padding-bottom: 5%;
+	margin-top: 0;
+}	
+
+#region-front-page-products-investments, #region-front-page-products-life-insurance, #region-front-page-products-health{
+	margin-top: 5%;
+}
+
+/*-----------------------------*/	
+
+/*
+.md-slider-button a{
+	width: 100px;
+}
+
+.md-slider-button h2{
+	padding-top: 5px;
+}
+*/
+
+	.md-slide-wrap{height:210px !important}
+	.md-slide-item{height:195px !important}
+	.md-object{font-size:3.5em}
+	
+	/*.view-front-page-investments-links img{
+		display: none;
+	}*/
+	
+	#region-front-page-products-life-insurance,	#region-front-page-products-investments, #region-front-page-products-pensions,#region-front-page-products-health{
+		.views-field-title{
+			display:inline-block;
+			width:100%;
+		}
+		.views-field-field-basic-web-page-summary{
+			display:inline-block;
+			width:100%;
+		}
+		.views-row{
+			margin-top: 0px;
+		}
+		
+		
+	}
+		
+	/*#zone-homepage-content-first-item-wrapper, #zone-homepage-content-second-item-wrapper, #zone-homepage-content-third-item-wrapper, #zone-homepage-content-fourth-item-wrapper, #zone-homepage-content-fifth-item-wrapper, #zone-homepage-content-sixth-item-wrapper, #zone-homepage-content-seventh-item-wrapper, #zone-homepage-content-eighth-item-wrapper{
+		padding: 0px 30px 0px 35px;
+	}*/
+	
+	#region-front-page-products-pensions, #region-front-page-products-investments,#region-front-page-products-life-insurance,#region-front-page-products-health{
+		text-align: center;
+	}
+	
+	#zone-homepage-content-first-item-wrapper, #zone-homepage-content-second-item-wrapper, #zone-homepage-content-third-item-wrapper, #zone-homepage-content-fourth-item-wrapper, #zone-homepage-content-fifth-item-wrapper, #zone-homepage-content-sixth-item-wrapper, #zone-homepage-content-seventh-item-wrapper, #zone-homepage-content-eighth-item-wrapper{
+		text-align: center;
+		padding: 20px 30px 30px 30px;
+	 
+	}
+	
+	
+	/*vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvFEEFO STYLINGvvvvvvvvvvvvvvvvvvvvvvvvvvv*/
+
+	
+
+	#zone-homepage-content-feefo-wrapper{
+		text-align: center;
+	}
+	
+	
+	
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^END FEEFO STYLING^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+	
+	
+	.homepage-cta-button {
+		width: 100% !important;
+	}
+	
+	#zone-homepage-content-first-item, #zone-homepage-content-second-item, #zone-homepage-content-third-item, #zone-homepage-content-fourth-item, #zone-homepage-content-fifth-item, #zone-homepage-content-sixth-item, #zone-homepage-content-seventh-item, #zone-homepage-content-eighth-item{
+	
+		text-align: center;
+	
+	}
+	
+	#zone-homepage-content-first-item-wrapper{
+		margin-bottom: -15px;
+	}
+	
+	#zone-homepage-content-second-item-wrapper{
+		height: 740px !important;
+	}
+	.product-box-text {
+		display:none;
+	}
+	.views-field.views-field-view-node {
+		height: 10px;
+		overflow-wrap: break-word;
+	}
+	
+}
+
+
+/*Breakpoint for landscape mobile screens above 450px and below 739px*/
+@media only screen 
+and (min-width : 450px) and (max-width: 739px){
+	
+
+/*#zone-branding{
+	height: 110px;
+}
+
+#section-header .logo-img{
+	position: absolute;
+	width: 271px;
+	left: 28%;
+	top: 5px;
+}
+
+.region-online-services-login-header ul{
+	margin: 70px 0px 0px 108%;
+	width: 271px;
+}*/
+
+/*New home page stuff*/
+
+	
+#zone-homepage-products{
+	padding-top: 5%;
+}	
+
+#region-front-page-products-investments, #region-front-page-products-life-insurance, #region-front-page-products-health{
+	margin-top: 5%;
+}
+
+/*-----------------------------*/	
+
+#mobile-banner{
+	display: none;
+}	
+	
+/*#region-home-md-slider {
+	height: 234px;
+	}*/
+
+
+	
+.md-slider-button a{
+	width: 130px;
+	height: 30px;
+	font-size: 1.8em;
+	line-height: 1.2em;
+}
+
+.md-slider-button h2{
+	padding-top: 12px;
+	color: $white;
+}
+	
+	#region-front-page-products-pensions, #region-front-page-products-investments,#region-front-page-products-life-insurance,#region-front-page-products-health{
+		text-align: center;
+	}
+	
+	#zone-homepage-content-first-item-wrapper, #zone-homepage-content-second-item-wrapper, #zone-homepage-content-third-item-wrapper, #zone-homepage-content-fourth-item-wrapper, #zone-homepage-content-fifth-item-wrapper, #zone-homepage-content-sixth-item-wrapper, #zone-homepage-content-seventh-item-wrapper, #zone-homepage-content-eighth-item-wrapper{
+		text-align: center;
+		padding: 20px 30px 30px 30px;
+		
+	}
+	
+	.views-field-field-basic-web-page-url-label a{
+		/*width: 100%;*/
+	}
+	
+	#zone-homepage-content-first-item, #zone-homepage-content-second-item, #zone-homepage-content-third-item, #zone-homepage-content-fourth-item, #zone-homepage-content-fifth-item, #zone-homepage-content-sixth-item, #zone-homepage-content-seventh-item, #zone-homepage-content-eighth-item{
+	
+		text-align: center;
+	
+	}
+	
+}
+
+
+/*-----------------------*/
+
+
+/*Breakpoint for Ipad in portrait*/
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 960px)  {
+	
+	#region-banner-right {
+		width: 100%;
+        margin-bottom: 69px;
+	}	
+#zone-preface-wrapper {
+	display:block;
+}	
+
+}
+/*Breakpoint for mobile screens below 749px*/
+@media only screen and (max-width: 980px) {
+
+	.shard-logo-desktop {
+		display:none;
+	}
+}
+/*Breakpoint for mobile screens below 749px*/
+@media only screen and (max-width: 740px) {
+
+.homepage-wellness-image-right{
+	background-image: none !important;
+	img{
+		max-width: 100%;
+	}
+}
+
+.homepage-about-us-image-left{
+	background-image: none !important;
+	img{
+		max-width: 10 0%;
+	}
+}
+.homepage-privacy-content{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 640px;
+    padding-top: 42.64%;
+	background-image: url(/sites/retail/files/mobile-family-shoeshop.jpg);
+	background-position: center;
+	margin-left:-350px;
+}
+.padding-50 {
+	padding-right:50px;
+}
+.homepage-privacy-content-white-block {
+
+	background-color: #fff;
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: -250px;
+	box-shadow: 0px 0px 20px #333;
+	text-align:left;
+
+}
+
+.white-shard {
+	position: absolute;
+	height:auto;
+	width:100%;
+  	background-color:#fff;
+	padding-left: 10px;
+    padding-top:25px;
+    text-align:left;
+
+}
+.white-shard h2{
+	
+	text-align: left!important;
+
+}
+.white-shard p{
+	color: #333;
+
+}
+.white-shard h3{
+	color:#5261ac !important;
+	font-weight: regular;
+	font-size: 1.563em;
+
+}
+/*vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvFEEFO STYLINGvvvvvvvvvvvvvvvvvvvvvvvvvvv*/
+#zone-homepage-content-feefo-wrapper{
+		text-align: center;
+	}
+
+#zone-homepage-content-feefo{
+	    margin: 0px 5px 0px 5px;
+}
+
+
+
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^END FEEFO STYLING^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+
+}
+
+/*Breakpoint for mobile screens below 749px*/
+@media only screen and (max-width: 749px) {
+
+
+#region-banner-left{
+	display: none;
+}
+#region-banner-right{
+	.views-field-field-basic-web-page-url-label{
+		width: 90%;
+		/*margin: auto;*/
+	}
+}
+/*
+.banner-right-image{
+	    margin: auto;
+		display: block;
+}
+*/
+#banner-left{
+	/* padding: 20px; */
+	color: #fff;
+	background: rgba(0,0,0,0.65);
+    padding: 20px 0px 65px 20px;
+    /* background: #ccc; */
+    margin: -20px 0px -35px 0px;
+}
+
+#region-menu {
+    background-color: transparent !important;
+}
+
+#zone-homepage-content-first-item-wrapper, #zone-homepage-content-third-item-wrapper{
+	background-color: #fff;
+}
+
+#zone-homepage-content-second-item-wrapper{
+	height: 630px;
+}
+
+.zone-homepage-content-fourth-item-wrapper{
+	.views-field-field-basic-web-page-url-label{
+		width: 95%;
+	}
+} 
+
+#region-front-page-content-first-item, #region-front-page-content-third-item{
+	margin-top: 0px;
+	h2{
+		margin-top: 0px;
+	}
+	.views-field-field-basic-web-page-url-label{
+		margin: auto;
+		margin-bottom: 20px;
+		padding-left: 0px;
+		width: 100%;
+	} 
+} 
+
+#region-front-page-content-second-item{
+	margin-top: 0px;
+}
+
+
+
+
+}
+.shard-mobile-js {
+    
+    display: inline;
+    float: left;
+    margin-top: 3px;
+    width:40%;
+}
+
+.login-mobile-js {
+    display: inline;
+    float:right;
+    margin-right: 20%;
+    margin-top: 10px;
+    width:8.5%;
+    padding-top:6px;
+    
+}
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { 
+.login-mobile-js {
+    display: inline;
+    float:right;
+    margin-right: 10%;
+    margin-top: 10px;
+    width:5%;
+    padding-top:6px;
+}
+    .shard-mobile-js {
+    
+    display: inline;
+    float: left;
+    margin-top: 3px;
+    width:15%;
+}
+}
+/*Breakpoint for tablet screens above 740*/
+@media only screen and (min-width: 740px) {
+	#zone-preface-wrapper {
+	
+		position:relative !important;
+		background-image: url('/sites/retail/files/home-banner-15-04-2019.png');
+		/*background-position: center;*/
+		background-repeat: no-repeat;
+		background-size: cover;
+		
+		
+	}
+#banner-left{
+	/* padding: 20px; */
+	color: #fff;
+	background: rgba(0,0,0,0.65);
+    padding: 50px 0px 90px 90px;
+    -webkit-transform: skew(-15deg);
+    -moz-transform: skew(-15deg);
+    transform: skew(-15deg);
+    /* background: #ccc; */
+    margin: -20px 0px -35px 0px;
+	/*padding: 0px 0px 60px 0px;*/
+	
+}
+#banner-inside{
+	-webkit-transform: skew(15deg);
+    -moz-transform: skew(15deg);
+    transform: skew(15deg);
+	.views-field-field-basic-web-page-url-label{
+		width: 70% !important;
+		/*margin-top: 15px;
+		margin: auto;*/
+	}
+    
+}	
+	
+
+
+}
+
+/*Breakpoint for tablet screens between 740px and 959px*/
+@media only screen and (min-width: 740px) and (max-width: 960px) {
+
+        
+#mobile-banner{
+	display: none;
+}
+
+.mobile-services-login{
+	display: none;
+}
+	
+	.md-slider-button a{
+	font-size: 1.8em;
+	}
+	
+	.md-slider-button h2{
+		padding-top: 6px;
+		color: $white;
+	}
+
+/*New homepage stuff*/
+
+
+
+#zone-homepage-products {
+    background-color: #ffffff;
+    padding-left: 4%;
+    padding-right: 4%;
+}	
+
+#region-banner-left{
+	display: none;
+}
+
+
+#banner-left{
+	width: 150%;
+	    margin: -20px 0px -35px 50px;
+		.banner-inside{
+			margin-left: 13%;
+		}
+}
+
+#banner-right{
+	.views-field-field-basic-web-page-url-label a{
+		width: 100%;
+	}
+}
+
+/*.why-il-inner{
+	margin-bottom: 1em;
+    border-bottom: 0.1em #666666 dotted;
+}*/
+
+/*----------------------------------*/
+
+	
+	#region-front-page-products-pensions, #region-front-page-products-investments, #region-front-page-products-life-insurance, #region-front-page-products-health{
+		height: 500px;
+		
+		ul li:before{
+			margin-left: 1px;
+		}
+		.region-inner{
+			    height: 33.8em;
+		}
+		
+	/*Special Styling for video ad - comment out when video is not in use*/
+	/*margin-top: 150px;
+	margin-bottom: 10px;
+	
+	img{
+		display: none;
+	}
+	.region-inner{background: none repeat scroll 0 0 rgba(255, 255, 255, 0.6);}*/
+	
+
+	
+	
+	/*------------------------------*/
+	
+	.views-field-field-basic-web-page-summary{
+			display:inline-block;
+			width:100%;
+		}
+		.views-field-field-basic-web-page-url-label a {
+			width: 130px;
+			position: absolute;
+			bottom: 10px;
+		}
+	}
+	/* whatever this is for?
+	img { 
+			margin-bottom: 1.5em; 
+			float: left;
+		}
+	*/	
+	.view-front-page-investments-links{
+		img{
+			width: 170px;
+			height: 110px;
+		}
+	}
+	
+	#zone-homepage-content-second-item-wrapper{
+	height: 740px;
+}
+	
+	
+	
+	#region-front-page-content-first-item, #region-front-page-content-second-item, #region-front-page-content-third-item, #region-front-page-content-fourth-item, #region-front-page-content-fifth-item, #region-front-page-content-sixth-item, #region-front-page-content-seventh-item, #region-front-page-content-eigth-item{
+		img{
+		margin-right: 20px;
+		}
+		
+		.views-field-field-basic-web-page-url-label{
+			display: inline-block;
+		}
+	}
+	
+	#region-front-page-content-fourth-item .views-field-field-basic-web-page-url-label{
+		display:  block;
+	}
+	
+		
+}
+/*-----------------------*/
+
+/*Breakpoint for desktop monitors - screens wider than 960px*/
+@media only screen and (min-width: 961px) {
+
+
+
+
+#mobile-banner{
+	display: none;
+}
+
+.mobile-services-login{
+	display: none;
+}
+
+.md-slider-button h2 {
+		padding-top: 16px;
+		color: $white;
+	}
+
+	#region-front-page-products-life-insurance,#region-front-page-products-pensions, #region-front-page-products-investments, #region-front-page-products-health{
+		
+	
+		
+		margin-top: 0px;
+		img {
+			width: 250px;
+			height: 150px;
+		}
+		
+		.views-row-first{
+			margin-top: 0px;
+		}
+		
+	}
+	
+
+	/*STyling for front page content items*/	
+	#region-front-page-content-first-item, #region-front-page-content-second-item, #region-front-page-content-third-item, #region-front-page-content-fifth-item, #region-front-page-content-sixth-item, #region-front-page-content-seventh-item, #region-front-page-content-eighth-item{
+		
+		width: 960px;
+		
+		img {
+				margin: 0px 0px 10px 0px;
+				
+			}
+		
+	}
+
+	#region-front-page-content-first-item,#region-front-page-content-third-item, #region-front-page-content-fifth-item,#region-front-page-content-seventh-item,{
+		img{
+				float: left;
+				margin-right: 3%;
+			}
+			
+			.field-name-field-product-landing-description{
+				width: 56%;
+			}
+	}
+
+	#region-front-page-content-second-item,#region-front-page-content-fourth-item, #region-front-page-content-sixth-item,#region-front-page-content-eighth-item{
+		img{
+				float: right;
+				margin-left: 3%;
+			}
+			
+			.field-name-field-product-landing-description{
+				width: 56%;
+			}
+	}
+	
+	.region-front-page-content-second-item-inner{
+		margin-top: 50px;
+	}
+	
+	.region-front-page-content-fourth-item-inner{
+		margin-top: 70px;
+	}
+	
+	
+	
+}
+
+@media only screen and (min-width: 740px) and (max-width: 1320px) {
+
+	#zone-preface-wrapper {
+		display:block;
+	}
+	.homepage-wellness-content{
+		background-color: #E0DEDE; 
+		color: #ffffff; 
+		padding-left: 191px !important; 
+		margin-left: -191px !important; 
+		height: 320px; 
+		margin-right: 0px !important; 
+		text-align: left; 
+		padding-top: 40px; 
+		padding-right: 20px; 
+		margin-right: 0px;
+		
+	}
+	
+	.homepage-wellness-image-right{
+		height: 360px;
+		padding-right: 191px !important;
+		margin-right: -191px !important;
+		margin-left: 0px !important;
+		background-size: 100% 100%;
+		img{
+			display: none;
+		}
+	}
+	
+	.homepage-about-us-content{
+		background-color: #E0DEDE; 
+		color: #ffffff; 
+		padding-right: 191px !important; 
+		margin-right: -191px !important; 
+		height: 320px; 
+		margin-left: 0px !important; 
+		text-align: left; 
+		padding-top: 40px; 
+		padding-right: 20px; 
+		padding-left: 20px;
+	}
+	
+	.homepage-about-us-image-left{
+		height: 360px;
+		padding-left: 211px !important;
+		margin-left: -191px !important;
+		margin-right: 0px !important;
+		background-size: 100% 100%;
+		img{
+			display: none;
+		}
+	}
+	.white-shard {
+		position: absolute;
+	  clip-path: polygon(0 0,100% 24%,80% 73%,0% 89%);
+	  height:600px;
+	  width:600px;
+	  background-color:#fff;
+	  padding-top: 150px;
+    padding-left: 30px;
+	
+	}
+	.white-shard h2{
+		
+		text-align: left!important;
+
+	}
+	.white-shard p{
+		color: #333;
+
+	}
+	.white-shard h3{
+		color:#333 !important;
+
+	}
+	.homepage-privacy-content{
+		background-color: #E0DEDE; 
+		color: #ffffff; 
+		padding-right: 191px !important; 
+		margin-right: -191px !important; 
+		height: 320px; 
+		margin-left: 0px !important; 
+		text-align: left; 
+		padding-top: 40px; 
+		padding-right: 20px; 
+		padding-left: 20px;
+		background-image: url('http://drupal-7.test/sites/retail/files/white-shard-background_0.png');
+	}
+	.padding-50 {
+		padding-right:50px;
+	}
+	.homepage-privacy-content-white-block  {
+		display:none;
+	}
+	.homepage-privacy-content-white-block {
+
+	background-color: #fff;
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: -250px;
+	box-shadow: 0px 0px 20px #333;
+	text-align:left;
+
+}
+
+
+}
+
+@media only screen and (min-width: 1321px) and (max-width: 1920px) {
+	
+	#zone-homepage-content-second-item-wrapper{
+		height: 740px;
+	}
+	#zone-homepage-content-fourth-item-wrapper{
+		height: auto;
+		padding-bottom: 40px;
+	}
+	#zone-homepage-content-feefo-wrapper,{
+		height: 420px;
+	}
+	
+	.homepage-wellness-content{
+		background-color: #E0DEDE; 
+		color: #ffffff; 
+		padding-left: 491px !important; 
+		margin-left: -491px !important; 
+		height: 409px; 
+		margin-right: 0px !important; 
+		text-align: left; 
+		padding-top: 40px; 
+		padding-right: 20px; 
+		margin-right: 0px;
+	}
+	
+	.homepage-wellness-image-right{
+		height: 449px;
+		padding-right: 491px !important;
+		margin-right: -491px !important;
+		margin-left: 0px !important;
+		background-size: 100% 100%;
+		img{
+			display: none;
+		}
+	}
+	
+	.homepage-about-us-content{
+		background-color: #E0DEDE; 
+		color: #ffffff; 
+		padding-right: 491px !important; 
+		margin-right: -491px !important; 
+		height: 409px; 
+		margin-left: 0px !important; 
+		text-align: left; 
+		padding-top: 40px; 
+		padding-left: 20px; 
+		margin-right: 0px;
+		
+	}
+	
+	.homepage-about-us-image-left{
+		height: 449px;
+		padding-left: 511px !important;
+		margin-left: -491px !important;
+		margin-right: 0px !important;
+		background-size: 100% 100%;
+		img{
+			display: none;
+		}
+	}
+	.white-shard {
+		position: absolute;
+		clip-path: polygon(0 0,100% 24%,80% 73%,0% 89%);
+		height:600px;
+	  width:600px;
+	  background-color:#fff;
+	  padding-top: 150px;
+    padding-left: 30px;
+	}
+
+	.white-shard h2{
+		
+		text-align: left !important;
+
+	}
+	.white-shard p{
+		color: #333;
+
+	}
+	.white-shard h3{
+		color:#5261ac !important;
+		font-weight:bold;
+		text-align:left;
+		size: 32px;
+
+	}
+	.homepage-privacy-content{
+		background-color: #E0DEDE; 
+		color: #ffffff; 
+		padding-right: 191px !important; 
+		margin-right: -191px !important; 
+		height: 320px; 
+		margin-left: 0px !important; 
+		text-align: left; 
+		padding-top: 40px; 
+		padding-right: 20px; 
+		padding-left: 20px;
+		background-image: url('http://drupal-7.test/sites/retail/files/white-shard-background_0.png');
+	}
+	.padding-50 {
+		padding-right:50px;
+	}
+	.homepage-privacy-content-white-block  {
+		display:none;
+	}
+	.homepage-privacy-content-white-block-text {
+		display:block;
+	}
+}
+
+@media only screen and (min-width: 1921px){
+	
+	#zone-homepage-content-second-item-wrapper{
+		height: 740px;
+	}
+	#zone-homepage-content-fourth-item-wrapper {
+		height: auto;
+		padding-bottom: 40px;
+	}
+	.homepage-wellness-content{
+		background-color: #E0DEDE; 
+		color: #ffffff; 
+		padding-left: 891px !important; 
+		margin-left: -891px !important; 
+		height: 519px; 
+		margin-right: 0px !important; 
+		text-align: left; 
+		padding-top: 40px; 
+		padding-right: 20px; 
+		margin-right: 0px;
+	}
+	
+	.homepage-wellness-image-right{
+		height: 559px;
+		padding-right: 891px !important;
+		margin-right: -891px !important;
+		margin-left: 0px !important;
+		background-size: 100% 100%;
+		img{
+			display: none;
+		}
+	}
+	
+	.homepage-about-us-content{
+		background-color: #E0DEDE; 
+		color: #ffffff; 
+		padding-right: 891px !important; 
+		margin-right: -891px !important; 
+		height: 519px; 
+		margin-left: 0px !important; 
+		text-align: left; 
+		padding-top: 40px; 
+		padding-left: 20px; 
+		margin-right: 0px;
+		
+	}
+	
+	.homepage-about-us-image-left{
+		height: 559px;
+		padding-left: 911px !important;
+		margin-left: -891px !important;
+		margin-right: 0px !important;
+		background-size: 100% 100%;
+		img{
+			display: none;
+		}
+	}
+
+}
+

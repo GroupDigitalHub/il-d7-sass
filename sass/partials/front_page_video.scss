@@ -1,0 +1,479 @@
+/*Styling for megaslider*/
+/*Special Styling for video ad - remember to turn responsive back on in mega slider module settings!*/
+#region-home-md-slider{height:405px} 
+.campaign-ad-video{ 
+position: absolute;
+right: 0;
+bottom: 0;
+/*top: -112px;/*positioning for newweb - seems to be different from irishlife.ie/*
+min-width: 145%;
+min-height: 142%;*/
+/*positioning for irishlife.ie*/
+top: -56px;
+min-width: 100%;
+min-height: 142%;
+/*--------*/
+width: auto;
+height: auto;
+z-index: -100;
+background-size: cover;
+	& video { 
+	display: block; 
+	}
+	& video#bgvid {
+		/*position: absolute; 
+		top: 0px;
+		right: 0; 
+		bottom: 0;
+		min-width: 80%; 
+		min-height: 96%;
+		width: auto; 
+		height: auto; 
+		z-index: -100;*/
+		background: url(http://newweb.irishlife.ie/brand-ad/www-first-frame-video.jpg) no-repeat;
+		background-size: cover;
+	}
+	
+}
+/*--------------------end*/
+
+
+.front
+	{
+		background-color: #edeaed !important;
+	}
+
+#region-home-md-slider
+{
+	margin-left:0px;
+	width:100%;
+	.fa-li {
+		font-size: 0.8em;
+		padding: 0px;
+	}
+	
+	li{
+		list-style-type: none;
+	}
+	
+	li:before{
+		content: '\f14a'; /* fa-check-square */
+		font-family: 'FontAwesome';
+		float: left;
+		margin-left: -1.5em;
+	}
+}
+
+
+/*
+.md-objects{
+	border-bottom: 1px dotted #cccccc;
+}
+*/
+.md-bullet, .md-bullet a, .md-current{
+	border-radius: 0px;
+}
+
+
+/*-----------------------*/
+
+
+h2 .block-title {
+    font-size: 2em;
+	text-align:center;
+	}
+
+#region-front-page-products-pensions, #region-front-page-products-investments,#region-front-page-products-life-insurance{
+	
+	
+	
+	@extend %landingPageBlockContainer;
+	p{
+		margin-bottom: 5px;
+	}
+	
+
+	h2 {
+		text-align:center
+	}
+	
+	
+	.views-field-title{
+			display:inline-block;
+			width:60%;
+		}
+	.views-field-field-basic-web-page-summary{
+		display:inline-block;
+		width:60%;
+	}
+	
+	.views-row{
+			padding-bottom: 20px;
+			border-bottom: $thin_dotted;
+		}
+	.views-row-last{
+		padding-bottom: 0px;
+		border-bottom: none;
+	}
+	
+	.views-field-field-basic-web-page-url-label{
+			opacity:1.2;
+			display:inline-block;
+			a{
+				width: 237px;
+			}
+		}
+	.region-inner{
+		
+		/*background: #ffffff !important;*/
+		border-bottom:none !important;
+		padding-top:10px !important;
+	}
+	
+
+}
+
+
+#zone-homepage-content-first-item-wrapper, #zone-homepage-content-third-item-wrapper, #zone-homepage-content-fifth-item-wrapper, #zone-homepage-content-seventh-item-wrapper{
+	background: #ffffff;
+	border-top: 1px solid #ececec;
+}
+
+#zone-homepage-content-second-item-wrapper, #zone-homepage-content-fourth-item-wrapper, #zone-homepage-content-sixth-item-wrapper, #zone-homepage-content-eighth-item-wrapper{
+	background: #edeaed;
+	border-top: 1px solid #ececec;
+}
+
+/*STyling for front page content items*/
+#region-front-page-content-first-item, #region-front-page-content-second-item, #region-front-page-content-third-item, #region-front-page-content-fourth-item, #region-front-page-content-fifth-item, #region-front-page-content-sixth-item, #region-front-page-content-seventh-item, #region-front-page-content-eigth-item{
+	margin: 20px 0px 20px 0px;
+}
+
+/*Breakpoint for mobile screens below 739px*/
+@media only screen and (max-width: 450px) {
+
+/*Special Styling for video ad - comment out when video is not in use*/
+
+.campaign-ad-video{
+		
+		background: url(http://newweb.irishlife.ie/brand-ad/www-first-frame-video_opt.jpg) no-repeat;
+		background-position: top center; 
+		width: 320px;
+		height: 132px;
+		min-width: none;
+		min-height: none;
+		position: absolute;
+		top: -17px;
+		left: 0px;
+		& video { 
+			display: none; 
+		}
+	}
+	
+#region-home-md-slider {
+	height: 132px;
+	}
+
+
+/*.campaign-ad-video{
+	display: none;
+}
+
+#region-home-md-slider{
+	display: none;
+}*/
+
+/*-----------------------------------*/
+
+	.md-slide-wrap{height:210px !important}
+	.md-slide-item{height:195px !important}
+	.md-object{font-size:3.5em}
+	
+	/*.view-front-page-investments-links img{
+		display: none;
+	}*/
+	
+	#region-front-page-products-life-insurance,	#region-front-page-products-investments, #region-front-page-products-pensions{
+		.views-field-title{
+			display:inline-block;
+			width:100%;
+		}
+		.views-field-field-basic-web-page-summary{
+			display:inline-block;
+			width:100%;
+		}
+		.views-row{
+			margin-top: 0px;
+		}
+		
+		
+	}
+		
+	/*#zone-homepage-content-first-item-wrapper, #zone-homepage-content-second-item-wrapper, #zone-homepage-content-third-item-wrapper, #zone-homepage-content-fourth-item-wrapper, #zone-homepage-content-fifth-item-wrapper, #zone-homepage-content-sixth-item-wrapper, #zone-homepage-content-seventh-item-wrapper, #zone-homepage-content-eighth-item-wrapper{
+		padding: 0px 30px 0px 35px;
+	}*/
+	
+	#region-front-page-products-pensions, #region-front-page-products-investments,#region-front-page-products-life-insurance{
+		text-align: center;
+	}
+	
+	#zone-homepage-content-first-item-wrapper, #zone-homepage-content-second-item-wrapper, #zone-homepage-content-third-item-wrapper, #zone-homepage-content-fourth-item-wrapper, #zone-homepage-content-fifth-item-wrapper, #zone-homepage-content-sixth-item-wrapper, #zone-homepage-content-seventh-item-wrapper, #zone-homepage-content-eighth-item-wrapper{
+		text-align: center;
+		padding: 0px 30px 30px 30px;
+	 
+	}
+	
+	.views-field-field-basic-web-page-url-label a{
+		width: 100%;
+	}
+	
+	#zone-homepage-content-first-item, #zone-homepage-content-second-item, #zone-homepage-content-third-item, #zone-homepage-content-fourth-item, #zone-homepage-content-fifth-item, #zone-homepage-content-sixth-item, #zone-homepage-content-seventh-item, #zone-homepage-content-eighth-item{
+	
+		text-align: center;
+	
+	}
+				
+}
+
+/*Breakpoint for landscape mobile screens above 320px and below 739px*/
+@media only screen 
+and (min-width : 450px) and (max-width: 739px){
+
+/*#zone-branding{
+	height: 110px;
+}
+
+#section-header .logo-img{
+	position: absolute;
+	width: 271px;
+	left: 28%;
+	top: 5px;
+}
+
+.region-online-services-login-header ul{
+	margin: 70px 0px 0px 108%;
+	width: 271px;
+}*/
+
+	.campaign-ad-video{
+		
+		background: url(http://newweb.irishlife.ie/brand-ad/www-first-frame-video_mob_lnd.jpg) no-repeat;
+		background-position: top center; 
+		width: 568px;
+		height: 234px;
+		min-width: none;
+		min-height: none;
+		position: absolute;
+		top: -17px;
+		left: 0px;
+		& video { 
+			display: none; 
+		}
+	}
+	
+#region-home-md-slider {
+	height: 234px;
+	}
+	
+	#region-front-page-products-pensions, #region-front-page-products-investments,#region-front-page-products-life-insurance{
+		text-align: center;
+	}
+	
+	#zone-homepage-content-first-item-wrapper, #zone-homepage-content-second-item-wrapper, #zone-homepage-content-third-item-wrapper, #zone-homepage-content-fourth-item-wrapper, #zone-homepage-content-fifth-item-wrapper, #zone-homepage-content-sixth-item-wrapper, #zone-homepage-content-seventh-item-wrapper, #zone-homepage-content-eighth-item-wrapper{
+		text-align: center;
+		padding: 0px 30px 30px 30px;
+		
+	}
+	
+	.views-field-field-basic-web-page-url-label a{
+		width: 100%;
+	}
+	
+	#zone-homepage-content-first-item, #zone-homepage-content-second-item, #zone-homepage-content-third-item, #zone-homepage-content-fourth-item, #zone-homepage-content-fifth-item, #zone-homepage-content-sixth-item, #zone-homepage-content-seventh-item, #zone-homepage-content-eighth-item{
+	
+		text-align: center;
+	
+	}
+	
+}
+
+
+/*-----------------------*/
+
+
+/*Breakpoint for Ipad in portrait*/
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+	.campaign-ad-video{
+		
+		background: url(http://newweb.irishlife.ie/brand-ad/www-first-frame-video.jpg) no-repeat;
+		min-width: 100%;
+		min-height: 483%;
+		position: absolute;
+		top: -1px;
+		& video { 
+			display: none; 
+		}
+	}
+	
+	#region-home-md-slider {
+	height: 233px;
+	}
+
+}
+
+/*------------------*/
+
+/*Breakpoint for tablet screens below 959px*/
+@media only screen and (min-width: 740px) and (max-width: 960px) {
+	
+	.campaign-ad-video{
+		
+		background: url(http://newweb.irishlife.ie/brand-ad/www-first-frame-video.jpg) no-repeat;
+		min-width: 109%;
+		min-height: 453%;
+		position: absolute;
+		top: -1px;
+		& video { 
+			display: none; 
+		}
+	}
+	
+	#region-front-page-products-pensions, #region-front-page-products-investments, #region-front-page-products-life-insurance{
+	
+	/*Special Styling for video ad - comment out when video is not in use*/
+	margin-top: 150px;
+	margin-bottom: 10px;
+	
+	img{
+		display: none;
+	}
+	.region-inner{background: none repeat scroll 0 0 rgba(255, 255, 255, 0.6);}
+	
+	
+	
+	/*------------------------------*/
+	
+	.views-field-field-basic-web-page-summary{
+			display:inline-block;
+			width:100%;
+		}
+		.views-field-field-basic-web-page-url-label a {
+			width: 160px;
+		}
+	}
+	
+	img { 
+			margin-bottom: 1.5em; 
+			float: left;
+		}
+		
+	.view-front-page-investments-links{
+		img{
+			width: 170px;
+			height: 110px;
+		}
+	}
+	
+	#region-front-page-content-first-item, #region-front-page-content-second-item, #region-front-page-content-third-item, #region-front-page-content-fourth-item, #region-front-page-content-fifth-item, #region-front-page-content-sixth-item, #region-front-page-content-seventh-item, #region-front-page-content-eigth-item{
+		img{
+		margin-right: 20px;
+		}
+		
+		.views-field-field-basic-web-page-url-label{
+			display: inline-block;
+		}
+	}
+	
+	/*special styling for video ad - comment out when not in use*/
+	#region-home-md-slider{
+		height: 85px;
+	}
+	/*----------------------------*/	
+}
+/*-----------------------*/
+
+/*Breakpoint for desktop monitors - screens wider than 960px*/
+@media only screen and (min-width: 961px) {
+
+	#region-front-page-products-life-insurance,#region-front-page-products-pensions, #region-front-page-products-investments{
+		
+	/*Special Styling for video ad - remove when video is not in use and all should go back to normal*/
+	margin-top: 120px;
+	margin-bottom: 50px;
+	img{
+		display: none;
+	}
+	.region-inner{background: none repeat scroll 0 0 rgba(255, 255, 255, 0.6);}
+	/*----------------------------*/
+		
+		margin-top: 0px;
+		img {
+			width: 250px;
+			height: 150px;
+		}
+		
+		.views-row-first{
+			margin-top: 0px;
+		}
+		
+	}
+
+	/*STyling for front page content items*/	
+	#region-front-page-content-first-item, #region-front-page-content-second-item, #region-front-page-content-third-item, #region-front-page-content-fourth-item, #region-front-page-content-fifth-item, #region-front-page-content-sixth-item, #region-front-page-content-seventh-item, #region-front-page-content-eigth-item{
+		
+		width: 960px;
+		
+		img {
+				margin: 0px 0px 10px 0px;
+				
+			}
+		
+		.views-field-field-basic-web-page-url-label{
+				display:inline-block;
+				position: absolute;
+				bottom: 11px;
+				.field-content a{
+					width: 565px;
+				}
+			}
+	}
+
+	#region-front-page-content-first-item,#region-front-page-content-third-item, #region-front-page-content-fifth-item,#region-front-page-content-seventh-item,{
+		img{
+				float: right;
+				margin-left: 3%;
+			}
+			
+			.field-name-field-product-landing-description{
+				width: 56%;
+			}
+	}
+
+	#region-front-page-content-second-item,#region-front-page-content-fourth-item, #region-front-page-content-sixth-item,#region-front-page-content-eighth-item{
+		img{
+				float: left;
+				margin-right: 3%;
+			}
+			
+			.field-name-field-product-landing-description{
+				width: 56%;
+			}
+	}
+}
+/*
+@media all and (max-width:740px){
+.campaign-ad-video{
+	background:url(http://newweb.irishlife.ie/brand-ad/www-first-frame-video.jpg) #fff no-repeat center center fixed;
+	background-size:cover;
+	& video{display:none}
+	& #bgvid{display:none}
+}
+
+}
+
+*/
+
+

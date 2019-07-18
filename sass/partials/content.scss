@@ -1,0 +1,715 @@
+/*general content styles */
+
+#zone-content-banner{
+	    max-width: 100%;
+		width: 100%;
+		margin: 0px;
+}
+
+#region-content-banner{
+	width: 100%;
+	margin: 0px;
+}
+
+.easy-breadcrumb{
+    padding-left: 1.5em;
+	margin-bottom:30px;
+}
+
+.easy-breadcrumb_segment-separator {
+    margin-right: 12px;
+    margin-left: 12px;
+	}
+
+.front{
+	.easy-breadcrumb{
+		display: none;
+	}
+}
+
+#region-content	
+{
+	table caption {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 0px;
+    padding: 15px 15px 0px 0px;
+    text-align: left;	
+	}
+	
+	table thead th {
+    font-weight: bold;
+    padding-left: 15px;
+	background-color: $warm_grey;
+	color:$white;
+	font-weight:bold;
+	}
+	
+	table td, table th {
+	border: 1px solid $white;
+	}
+	
+	.comparison-table 
+	{
+		td, th {
+			text-align: center;
+		}
+	}
+	
+	table tbody tr:nth-child(odd){
+	
+	}
+	
+	table tbody tr:nth-child(even){
+	background-color: $very_light_grey;
+	}
+	
+}
+
+#region-content-title, #region-content, #region-fund-page-content-top, #region-fund-page-content-bottom, #region-six-col-block-1, #region-six-col-block-2, #region-content-fulltop1{
+	@extend %productPageBlockContainer;
+}
+
+#region-content-title, #region-content, #region-fund-page-content-top, #region-fund-page-content-bottom, #region-six-col-block-1, #region-six-col-block-2, #region-content-fulltop1, #region-landing-seventh-item, #region-content-fullbot1 {
+	margin-bottom: 1.6em;
+	.title{
+		margin-bottom: 20px;
+		color:$main_purple;
+		padding-bottom: 9px;
+	}
+		
+	img {
+			margin-top: 10px;
+			margin-left: 10px;
+		}
+	
+	.field-name-field-call-to-action-link{
+		a{
+			background-color: $teal;
+			box-shadow: 0.071em 0.071em 0.143em 0 $very_light_grey;
+			color: $white;
+			display: block;
+			font-size: 1.4em;
+			height: 3em;
+			padding-top: 25px;
+			text-align: center;
+			text-decoration: none;	
+			margin-top:1.5em;
+			background-image: url('/sites/all/themes/irishlife/icons/pen-and-paper.png');
+			background-repeat: no-repeat;
+			background-attachment: scroll;
+			background-position: 13px 8px;
+			background-clip: border-box;
+			background-origin: padding-box;
+			background-size: 80px 80px;	
+		}			
+	}
+	.field-name-field-call-to-action-link a:hover{
+	@extend %hover_box_shadow;
+	}
+	
+	.field-name-field-call-to-action-link{
+			a:after{
+			border-bottom: 15px solid transparent;
+			border-left: 15px solid $teal;
+			content: "";
+			display: block;
+			height: 0;
+			left: 49px;
+			bottom: -30px;
+			position: relative;
+			width: 0;
+		}
+	}
+	
+	/*PDF Link at bottom of page*/
+	.field-name-field-pdf-url{
+		clear:both;
+		a{
+			background-color: $main_purple;
+			width: 100% !important;
+			box-shadow: 0.071em 0.071em 0.143em 0 $very_light_grey;
+			color: $white;
+			display: block;
+			font-size: 1.4em;
+			height: 3em;
+			padding-top: 25px;
+			text-align: center;
+			text-decoration: none;
+			background-image: url('/sites/all/themes/irishlife/ilfs.pdf.png');
+			background-repeat: no-repeat;
+			background-attachment: scroll;
+			background-position: 19px center;
+			background-clip: border-box;
+			background-origin: padding-box;
+			background-size: auto auto;	
+			margin-top:1.3em;
+		}
+		
+		
+	}
+	
+	.field-name-field-pdf-url a:hover{
+		@extend %hover_box_shadow;
+	}
+	
+		.field-name-field-pdf-url{
+			a:after {
+			border-bottom: 15px solid transparent;
+			border-left: 15px solid $main_purple;
+			content: "";
+			display: block;
+			height: 0;
+			left: 49px;
+			bottom: -30px;
+			position: relative;
+			width: 0;
+			} 
+		}
+		
+		#block-fund-centre-fund-centre .field-name-field-basic-web-page-image,
+		#block-find-a-financial-advisor-find-a-financial-advisor .field-name-field-basic-web-page-image ,
+		#node-financial-advice-web-page-521 .field-name-field-basic-web-page-image,
+		#node-investments-web-page-562 .field-name-field-basic-web-page-image,
+		.content-claims-stats-2013 .field-name-field-basic-web-page-image,
+		.content-claims-stats-2014 .field-name-field-basic-web-page-image, .content-claims-stats-2015 .field-name-field-basic-web-page-image,
+		#node-financial-advice-web-page-522 .field-name-field-basic-web-page-image{display:none}
+		#node-life-insurance-online-product-pa-525 .field-name-field-basic-web-page-image{float:left}
+		#node-life-insurance-online-product-pa-525 .field-name-field-basic-web-page-right-table{float:left;background-color:$white}
+		#node-life-insurance-online-product-pa-525 .field-name-field-basic-web-page-left-table{float:right;background-color:$white}
+		#node-life-insurance-online-product-pa-525 .field-name-field-basic-web-page-body{display:none}
+		
+		.field-name-field-basic-web-page-left-table , .field-name-field-basic-web-page-right-table {
+				background-color:$very_light_grey;
+				display:inline-block;
+				vertical-align:top;
+				margin-bottom:5px;
+				padding: 3px;
+		}
+
+		.field-name-field-basic-web-page-left-table h2, .field-name-field-basic-web-page-right-table h2{
+			background-color: $warm_grey;
+			color: $white;
+			font-weight: normal;
+			padding: 10px;	
+			position: relative;
+			margin-bottom: 0.5em;
+		}
+
+		
+		
+}
+
+
+			
+/*Warning boxes*/
+.field-name-field-basic-web-page-warning, .field-name-field-financial-ad-warning{
+	margin-top:1.5em;	
+	
+	.field-item{
+		margin: 0; 
+		padding: 0.714em; 		
+		font-family: inherit; 
+		font-style: inherit; 
+		font-variant: inherit; 
+		font-weight: bold; 
+		background: none;
+		@extend %normalText;
+		border: 0.1em solid rgb(0, 0, 0);
+		margin-bottom:1.3em;
+	}
+}
+
+.field-name-field-call-to-action-text-descri { font-size: 1.2em;
+    margin-top: 2px;
+    text-align: center;}
+
+.view-content, .field-items ul {
+	li:before{
+			font-family: FontAwesome;
+			content: "\f04d";
+			color: #000000;
+			margin: 0 5px 0 -18px;/*fixes indent problem*/
+			vertical-align:top;
+			font-size: 0.4em;
+			/*padding-left: 1.2em;*/
+		}
+		li{
+			list-style: none;
+			list-style-type: none;
+			border-bottom: none;
+			padding: 0px;
+			margin-left:20px;
+			line-height:1.714em;
+			font-size:1.143em;
+		}
+
+}
+.view-content{ 
+	.views-row {
+    border-bottom: 3px solid $mid_blue;
+    margin-bottom: 0.8em;
+	}
+	.views-row-last{
+		border-bottom:none;
+		margin-bottom:0em;
+	}
+}
+
+/*Styling for lists*/
+.view-cs-landing-page-breakdown-of-charges{
+	li:before{
+			font-family: FontAwesome;
+			content: "\f054";
+			color: $mid_blue;
+			margin: 0 5px 0 0px;/*fixes indent problem*/
+			vertical-align:top;
+		}
+		li{
+			list-style: none;
+			list-style-type: none;
+			border-bottom: none;
+			padding: 0px;
+			@extend %normalText;
+		}
+}
+
+.view-fa-landing-page-guides{
+	li:before{
+			font-family: FontAwesome;
+			content: "\f054";
+			color: $mid_blue;
+			margin: 0 5px 0 0px;/*fixes indent problem*/
+			vertical-align:top;
+		}
+		li{
+			list-style: none;
+			list-style-type: none;
+			border-bottom: none;
+			padding: 0px;
+			@extend %normalText;
+		}
+}
+
+.view-id-inv_maps_quarterly_update_landing ul{
+		margin-left: 20px;
+}
+
+.node-type-investments-maps-quarterly-updat ol {
+		li:before{
+			display: none !important;
+		}
+
+		li{
+			list-style-type: decimal;
+			margin-left: 1.2em;
+			border-bottom: none;
+			padding: 0px;
+			content: none;
+			
+		}
+}
+
+.node-type-investments-maps-quarterly-updat ol li ul{
+		li:before{
+			display: none !important;
+		}
+		li{
+			list-style-type: square;
+			margin-left: 1.4em;
+			border-bottom: none;
+			padding: 0px;
+			content: none;
+			font-size:1.0em !important;
+		}
+}
+/*Styling for Related Pages links*/ 
+#region-product-page-menu{
+	@extend %productPageBlockContainer;
+	.region-inner li:before{
+			font-family: FontAwesome;
+			content: "\f054";
+			color: #00aad2;
+			margin: 0 5px 0 -20px;
+		}
+	.region-inner{
+		a{
+			text-decoration: none;
+			color:$link_color;
+			font-weight: bold;
+			&:hover{
+				text-decoration: underline;
+				}
+		}
+		/*background: -moz-linear-gradient(center top , #ffffff 0%, #ececec 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+		border: 1px solid #e6e6e6;
+		border-radius: 0;
+		padding: 0.5em 0.5em;
+		margin:1.5em 1.5em 0;*/
+		
+		ul {
+			margin: 0.75em 0;
+			padding: 0 1em;
+			list-style: none;
+			list-style-type: none;
+		}
+		
+		li{
+			list-style: none;
+			list-style-type: none;
+			border-bottom: $thin_dotted;
+			padding: 5px 0px 5px 0px;
+		}
+		
+		
+		
+		li:last-child{
+			border-bottom: 0px;
+		}
+	}
+
+	}
+	
+
+/* Needed to display the warning boxes correctly */
+.field-name-field-basic-web-page-warning {
+	.field-label{
+		display: block;
+	}
+
+	.field-items{
+		display: block;
+	}
+
+}
+
+/*Responsive images for carousel*/
+.lazyOwl{
+	max-width: 100%;
+    height: auto;
+}
+
+
+/* Make youtube embed responsive */
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+/* MAPS story so far page */
+.story-so-far-left{
+	height: 210px; 
+	background-color: #5261AC; 
+	padding-right: 10px; 
+	text-align: center; 
+	color: #ffffff;
+}
+
+.story-so-far-middle-left{
+	height: 210px; 
+	background-color: #50C9B5; 
+	padding-left: 10px; 
+	padding-right: 10px;
+	margin-left: 0px !important; 
+	margin-right: 0px !important;
+	text-align: center; 	
+	color: #ffffff;
+}
+
+.story-so-far-middle-right{
+	height: 210px; 
+	background-color: #475496; 
+	padding-left: 10px; 
+	padding-right: 10px;
+	margin-left: 0px !important; 
+	margin-right: 0px !important;
+	text-align: center; 
+	color: #ffffff;
+}
+
+.story-so-far-right{
+	height: 210px; 
+	background-color: #9ADCC6; 
+	padding-left: 10px; 
+	text-align: center; 
+	color: #ffffff;
+}
+
+.maps-story-so-far-warning{
+	/*margin-top: -130px;*/
+	margin-bottom: 20px;
+}
+
+.check-bullets ul li{
+	list-style-type: none;
+}
+
+.check-bullets ul li:before{
+	font-family: FontAwesome;
+    content: "\f00c";
+    color: #50C9B5;
+    margin: 0 5px 0 -18px;
+    vertical-align: top;
+}
+
+blockquote {
+  /*background: #50CAB5;*/
+  /*border-left: 10px solid #ccc;*/
+  /*margin: 1.5em 10px;*/
+  /*padding: 0.5em 10px;*/
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #50CAB5;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  /*margin-right: 0.25em;*/
+  vertical-align: -0.4em;
+}
+blockquote:after {
+  color: #50CAB5;
+  content: close-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+
+/*Solvency and Financial condition reports*/
+
+#block-menu-menu-irish-life-assurance-plc, #block-menu-menu-irish-life-health-dac, #block-menu-menu-canada-life-group{
+	ul li.leaf {
+		list-style-image: none;
+	}
+	ul.menu li {
+		margin: 0 0 0 0em;
+	}
+}
+
+
+
+
+/* Guide  to investing video and flipbook */
+@media only screen and (min-width: 961px)
+{
+	#block-bean-guide-to-investing {
+		width: 100%;
+		height: 310px;
+	}
+	#block-bean-guide-to-investing iframe {
+		width: 100%;
+		height: 300px;
+	}
+	#block-bean-guide-to-investing-flipbook {
+		width: 100%;
+		height: 310px;
+	}
+	#block-bean-guide-to-investing-flipbook iframe {
+		width: 100%;
+		height: 300px;
+	}
+}
+
+@media only screen and (min-width: 739px) {
+	/* MAPS story so far page */
+	.story-so-far-left{
+		margin-left: 0px !important;
+		margin-right: 0px !important; 	
+	}
+
+	.story-so-far-middle{
+		margin-left: 0px !important;
+		margin-right: 0px !important;
+	}
+
+	.story-so-far-right{
+		margin-left: 0px !important;
+		margin-right: 0px !important; 
+	}
+}
+
+
+@media only screen and (max-width: 739px) {
+	#block-bean-guide-to-investing {
+		width: 300px;
+	}
+	#block-bean-guide-to-investing iframe {
+		width: 300px;
+	}
+	#block-bean-guide-to-investing-flipbook {
+		width: 300px;
+	}
+	#block-bean-guide-to-investing-flipbook iframe {
+		width: 300px;
+	}
+
+	/*.region-inner{padding:1.5em 0.1em 0.1em !important}*/
+
+	#region-content, #region-fund-page-content-top, #region-fund-page-content-bottom, #region-six-col-block-1, #region-six-col-block-2, #region-content-fulltop1 {
+    margin-bottom: 0.5em;
+	}
+	
+	/* MAPS story so far page */
+.story-so-far-left{
+	margin: 0 -10px 0 -10px; 
+}
+
+.story-so-far-middle-left{
+	margin: 0 -10px 0 -10px !important; 
+}
+
+.story-so-far-middle-right{
+	margin: 0 -10px 0 -10px !important;
+}
+
+.story-so-far-middle{
+	margin: 0 -10px 0 -10px;
+}
+
+.story-so-far-middle-inner{
+	width: 280px;
+	margin: auto;
+}
+
+.story-so-far-right{
+	margin: 0 -10px 0 -10px;
+}
+	
+	
+}
+
+/*Breakpoint for mobile screens below 450px*/
+@media only screen and (max-width: 450px) {
+	/*PDF Link at bottom of page*/
+	#region-fund-page-content-bottom, #region-fund-page-content-bottom, #region-content, #region-content-fullbot1, #region-landing-seventh-item { 
+		.field-name-field-pdf-url a, .field-name-field-call-to-action-link a { 
+			background-image: none;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			font-size: 1.1em;
+			
+		}
+	}
+	#region-landing-seventh-item { 
+	
+		.field-name-field-pdf-url a:after, .field-name-field-call-to-action-link a:after {
+			bottom: -23px;
+			}
+	}
+	
+	.field-name-field-call-to-action-text-descri {
+		margin-top: 20px;
+	}
+	
+	.field-name-field-pdf-url{
+		a{
+			font-size: 1.1em;	
+		}
+		
+	}
+	
+}
+
+/*Breakpoint for landscape mobile screens above 450px and below 739px*/
+@media only screen 
+and (min-width : 450px) and (max-width: 739px){
+	/*PDF Link at bottom of page*/
+	#region-fund-page-content-bottom .field-name-field-pdf-url a, #region-fund-page-content-bottom .field-name-field-call-to-action-link a,  #region-landing-seventh-item .field-name-field-pdf-url a {
+			background-image: none;
+		}
+	
+	.field-name-field-call-to-action-text-descri {
+		margin-top: 20px;
+	}
+}
+@media only screen and (max-width: 600px) {
+     #feedbackify{display:none !important}
+}
+@media only screen and (min-width: 960px) {
+
+	.field-name-field-basic-web-page-left-table{width:49%;}
+
+	.field-name-field-basic-web-page-right-table{width:49%;margin-left:5px}
+	
+	#youtubeEmbed{
+		height: 480px;
+		width: 853px;
+	}
+
+}
+
+
+
+/*Breakpoint for mobile and tablet screens below 959px*/
+@media only screen and (max-width: 959px) {
+#region-content{	
+	.field-name-field-call-to-action-link{
+		a{
+			font-size: 1.1em;
+			height: 3em;
+			padding-top: 25px;
+			text-align: center;
+			text-decoration: none;	
+			margin-top:1.5em;
+			background-size: 69px 69px;	
+				
+		}
+		a:after{
+			bottom: -18px;
+		}	
+	}
+	
+	.field-name-field-pdf-url{
+		a{
+			font-size: 1.0em;
+			height: 3em;
+			padding-top: 25px;
+			text-align: center;
+			text-decoration: none;	
+			margin-top:1.5em;
+			background-size: 40px 40px;	
+				
+		}
+		a:after{
+			bottom: -14px;
+		}
+	}
+}
+
+
+}
+
+/*Breakpoint for tablet screens*/
+@media only screen and (min-width: 740px) and (max-width: 979px){
+	#youtubeEmbed{
+		height: 360px;
+		width: 640px;
+	}
+}
+
+/*Breakpoint for mobile screens below 740px*/
+@media only screen and (max-width: 739px) {
+	
+	.view-pe-self-invested-fund{
+		margin-bottom: 30px !important;
+	}
+	
+	#youtubeEmbed{
+		height: 250px;
+		width: 100%;
+	}
+}

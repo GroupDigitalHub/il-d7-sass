@@ -1,0 +1,185 @@
+/* Welcome to Compass. 
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="Font/css" /> */
+
+/*Breakpoint variables*/
+$breakpoint-mobile-and-tablet: max-width 959px; 	/*Breakpoint for mobile and tablet screens below 959px*/
+$breakpoint-tablets: min-width 740px; 		/*Breakpoint for tablets screens above 740px*/
+$breakpoint-desktop: min-width 960px; 		/*Breakpoint for desktop monitors - screens wider than 960px*/
+
+ 
+/* Font weights*/
+$light: 100;
+$regular: 400;
+$bold: 600;
+
+/* Descriptive colour variables:*/
+$white: #ffffff;
+$main_purple:#5261ac;
+$black: #333333;
+$teal: #50C9B5;
+$warm_grey: #675C53;
+$green: #69923A;
+$dark_blue: #002664;
+$mid_blue: #5582AB;
+$very_light_grey: #EDEAED;
+$medium_grey: #AAA38E;
+$very_light_blue: #AACAE6;
+$tourquise: #00ADD0;
+$mid_purple: #502D7F;
+
+/* Functional colour variables:*/
+$header_background: $white;
+$text_color: $black;
+$link_color: $main_purple;
+$light_text:$white;
+$main_menu_background:$main_purple;
+$main_menu_text:$white;
+$main_menu_hover:$white;
+$main_menu_hover_text:$main_purple;
+$second_menu_background:$warm_grey;
+$second_menu_hover:$teal;
+
+%hover_box_shadow {-webkit-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+				-moz-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+				box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+/*border styles*/
+$thin_dotted: 0.071em dotted $very_light_grey;
+$medium_dotted: 0.143em dotted $very_light_grey;
+$thin_solid: 0.071em solid $very_light_grey;
+$medium_solid: 2px solid $teal;
+$none: none;
+
+%heading{
+	font-family: 'Lato',arial, helvetica, sans-serif !important;
+	color: $black;
+	padding-bottom: 0.2em;
+	margin-bottom: 0.0em;
+}
+
+%blockContainer {
+	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.8);	
+	display: block;
+	margin-bottom: 1.429em;
+	min-height: 0;
+	border-bottom: 3px solid $teal; 
+}
+
+
+%blockContainerNoBorderBottom {
+	border-bottom:none;
+}
+
+%normalText{
+	line-height:1.714em;
+	font-size:1.143em;
+}
+
+%landingPageBlockContainer{
+	.region-inner {
+		@extend %blockContainer;
+		.views-field-title{	 		
+			a{
+				text-decoration: none;
+				color:$warm_grey;
+				&:hover{
+					text-decoration: underline;
+				}
+			}
+		}		
+
+		padding:1.786em;
+}
+}
+
+%productPageBlockContainer{
+	.region-inner {
+		@extend %blockContainer;
+		@extend %blockContainerNoBorderBottom;
+		.views-field-title{
+	 		
+			a{
+				text-decoration: none;
+				color:$main_purple;
+				&:hover{
+					text-decoration: underline;
+				}
+			}
+		}
+
+		padding:1.5em 1.5em 0em;
+		margin-bottom:0em;
+		
+		img {
+			float:right;
+		}
+		
+		.file img {float:left;margin-right:5px}
+		
+		.views-field-title{
+			display:inline-block;
+			width:80%;
+		}
+		.views-field-field-basic-web-page-summary{
+			display:inline-block;
+			width:80%;
+		}
+
+		.views-field-field-basic-web-page-url-label{
+			display:inline-block;
+		}
+
+		.views-row{
+			margin-top: 2.143em;
+		}
+	}
+}
+
+%promotedProductBlockContainer{
+	.region-inner {
+		@extend %blockContainer;
+		.views-field-title {
+	 		font-weight:700;
+			
+			a {
+				text-decoration: none;
+				color:$warm_grey;
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+		}
+		
+			
+		padding: 1.429em 1.786em 1.786em 1.786em;
+		
+		img {
+			float:left;
+			margin-right: 3%;
+			margin-top: 0.357em;
+		}
+		.views-field-title{
+			display:inline;
+			width:100%;
+		}
+		.views-field-field-basic-web-page-summary{
+			display:inline;
+			width:60%;
+		}
+		
+		.views-field-field-basic-web-page-description{
+			margin-top: 0.357em;
+		}
+
+		.views-field-field-basic-web-page-url-label{
+			display:inline-block;
+			margin-left: 2%;
+		}
+
+		.views-row{
+			margin-top: 0.714em;
+		}
+	}
+}

@@ -1,0 +1,110 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body { 
+	background-color: $white; 
+	color: $black;
+	font-family: 'Lato',arial, helvetica, sans-serif !important;
+	font-size: 14px;
+	line-height: 22px;
+	font-smooth: always;
+	
+	
+	
+	h1, h2, h3, h4, h5, h6 {
+	    letter-spacing: 0.00em;
+	}
+	
+	h1{
+		@extend %heading;
+		font-size: 2em !important; /*28px*/
+		margin: 0em 0.0em;
+		line-height: 1.143em;
+	}
+
+	h2{
+		@extend %heading;
+		font-size: 1.429em !important; /*20px*/
+		/*font-weight: bold;*/
+		font-weight: normal;
+		color: $main_purple;
+		margin-top:0.5em;
+		a{
+			text-decoration: none !important;
+			color: $main_purple !important;
+			&:hover{
+				color:$main_purple !important;
+				text-decoration: none !important;
+			}
+		}
+
+	}
+	h3{
+		@extend %heading;
+		font-size: 1.286em !important; /*18px*/
+		font-weight: bold !important;
+		line-height: 1.2em !important;
+	}
+	
+	h3 a{
+		@extend %heading;
+		font-weight: bold !important;
+		color: $warm_grey !important;
+		line-height: 1.2em !important;
+	}
+	
+	h4{
+		@extend %heading;
+		font-size: 1.143em !important; /*16px*/
+		font-weight: bold;
+		color: $main_purple;
+	}
+	
+	h5{
+		@extend %heading;
+		font-size: 1.1em !important; /*15px*/
+	}
+	h6{
+		@extend %heading;
+		font-size: 1em !important; /*14px*/
+	}	
+	p, .field-name-field-ilfs-regulatory-line {
+		@extend %normalText;
+
+		small{
+			color: $white;
+		}
+	}
+	
+	sup{vertical-align:super}
+	
+	hr{
+		border: 0;
+		background-color: $medium_grey;
+		color: $medium_grey;
+		-webkit-box-shadow: 0 0.071em 0.286em rgba(0,0,0,.2); 
+		-moz-box-shadow: 0 0.071em 0.286em rgba(0,0,0,.2); 
+		-o-box-shadow: 0 0.071em 0.286em rgba(0,0,0,.2); 
+		box-shadow: 0 0.071em 0.286em rgba(0,0,0,.2);
+	}
+	
+	.block-title{
+		border-bottom: none;
+	}
+	
+	ul li {
+		list-style-type: square;
+	}
+	
+	.ordered-list{
+		list-style-type: decimal;
+		list-style-position: inside;
+	}	
+}
+
+textarea, select, input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"]{
+		font-size: 1em;
+		font-family: 'Lato',Arial,sans-serif;
+	}

@@ -1,0 +1,228 @@
+/*All styles for the Irish Life footer will be designed here */
+ 
+#zone-footer-wrapper{
+	background-color: #5261ac;	
+}
+
+#zone-trailing-footer-wrapper {
+	background-color: #475496;
+}
+
+#block-menu-menu-footer-general-links
+{margin-bottom:1em;margin-top:1em}
+
+.zone-footer {
+	color: $white;
+	border-radius: 6px;
+	padding: 20px 20px 20px 20px;
+
+	a {
+		color:$white !important;
+		text-decoration: none;
+		&:hover{
+			text-decoration: underline!important;
+		}
+	}
+
+h1, h2, h3, h4, h5, h6 {
+    letter-spacing: 0.00em;
+}
+	
+	
+	h2{
+		color: $white;
+		margin-bottom: 20px;
+		font-weight: bold;
+        font-size: 18px !important;
+	}
+
+	ul {
+		list-style: none;
+	}
+	ul.menu li{
+		margin: 0em;
+	}
+	
+	li.leaf{
+		padding:0em;
+	}
+
+	.leaf{
+		list-style: none;
+	}
+	
+	#region-footer-full-width  .leaf a{
+		padding: 0px 10px;
+	}
+
+
+	.grid-3.region {
+		margin-right: 8px;
+		padding-right: 8px;
+		margin-left: 0px;
+		padding-top: 20px;
+	}
+	
+	.sub-heading {
+		color: #efe9e99c;
+		font-style:italic;
+	}
+
+	#region-footer-fourth{
+		border-right: none;
+	}
+
+	.field-label{
+		display:inline-block;
+	}
+
+	.field-items {
+		display:inline-block;
+	}
+	
+	.white-logo-footer {
+		width: 70%;
+	}
+}
+
+#region-footer-full-width-2 {
+	margin-top: 30px;
+	margin-left:0px;
+	
+	p {
+		color:white;
+		
+	}
+	
+	.menu {
+		text-align:center;
+	}
+	
+	.first {
+	border-left:none!important;}
+
+	.leaf{
+		list-style: none;
+        display: inline;
+		border-left: 1px solid white;
+			
+		& a {
+			color:$white !important;
+			text-decoration: none;
+			padding: 10px;
+			&:hover{
+				text-decoration: underline!important;
+			}
+		}
+
+		&.last a{
+			border-right: none!important;
+		}
+	}
+}
+
+#block-bean-contact-us{
+	.block-title:before{
+		font-family: FontAwesome;
+		content: "\f10b";
+		font-size: 1.2em;
+		margin-right: 10px;
+	}
+}
+
+#block-bean-call-in{
+	.block-title:before{
+		font-family: FontAwesome;
+		content: "\f007";
+		margin-right: 10px;
+		font-size: 1em;
+		margin-right: 10px;
+	}
+}
+
+#block-menu-menu-footer-about-irish-life-men{
+	.block-title:before{
+		font-family: FontAwesome;
+		content: "\f129";
+		margin-right: 10px;
+		font-size: 1em;
+	}
+}
+
+
+
+#block-menu-menu-footer-customer-service-men{
+	.block-title:before{
+		font-family: FontAwesome;
+		content: "\f0c0";
+		margin-right: 10px;
+		font-size: 1em;
+		margin-right: 10px;
+		font-stretch: condensed;
+	}
+}
+
+@media only screen and (max-width: 739px) {
+	
+	.zone-footer .grid-3.region{
+		border-right: none;
+		font-size:0.9em;
+		border-bottom: 1px solid $very_light_grey;
+		margin-bottom:3px;
+	}
+	
+	#region-footer-first{
+		display:none;
+	}
+	
+	#region-footer-full-width-2 {
+		margin-top:0px;
+
+	}
+	
+	#block-menu-menu-footer-general-links {
+		margin-top:0px;
+	}
+	
+	#region-footer-full-width-2 .leaf {
+		display: block;
+        border: 0px;
+		list-style: disc;
+		overflow: hidden;
+		padding-top: 20px;
+	}
+	
+	#region-footer-full-width-2 .menu {
+		text-align:left;
+	}
+}
+
+
+/*Breakpoint for tablet screens below 959px*/
+@media only screen and (min-width: 740px) and (max-width: 959px) {
+	
+}
+
+
+
+
+//create border bootom radious mixin
+
+#region-footer-first {
+
+}
+
+#region-footer-second {
+
+}
+
+#region-footer-third {
+
+}
+
+#region-footer-fourth {
+}
+
+#region-footer-full-width{
+
+}

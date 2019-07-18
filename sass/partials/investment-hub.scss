@@ -1,0 +1,593 @@
+/*vvvvvvvvvvvvvvvvvvINVESTMENT HUB LANDING PAGEvvvvvvvvvvvvvvvvvvvv*/
+
+#region-investments-hub-content-top{
+	.region-investments-hub-content-top-inner{
+		padding: 1.5em 1.5em 0 1.5em;
+		margin-bottom: 0;
+	}
+	.views-field-title{
+		border-bottom: 1px solid #50c9b5;
+	}
+}
+
+#region-investments-hub-main-first-item, #region-investments-hub-main-fourth-item, #region-investments-hub-main-fifth-item, #region-investments-hub-main-sixth-item, #region-investments-hub-main-seventh-item, #region-investments-hub-main-eighth-item, #region-investments-hub-main-ninth-item, #region-investments-hub-main-tenth-item, #region-investments-hub-main-eleventh-item, #region-investments-hub-main-twelfth-item, #region-investments-hub-main-thirteenth-item{
+	img{
+		width: 100%;
+		height: 100%;
+	}	
+}
+
+#region-investments-hub-main-fourth-item, #region-investments-hub-main-fifth-item, #region-investments-hub-main-sixth-item, #region-investments-hub-main-seventh-item, #region-investments-hub-main-eighth-item, #region-investments-hub-main-ninth-item, #region-investments-hub-main-tenth-item, #region-investments-hub-main-eleventh-item, #region-investments-hub-main-twelfth-item, #region-investments-hub-main-thirteenth-item{
+	
+	
+	padding-bottom: 20px;
+
+	
+	
+	.views-row-odd{
+		margin-left: 0px;
+		background-color: #ebebeb;
+		margin-bottom: 20px !important;
+		
+	}
+	
+	.views-row-even{
+		margin-right: 0px;
+		background-color: #ebebeb;
+		margin-bottom: 20px;
+		
+	}
+	
+	.views-field-title{
+		padding: 10px;
+		font-size: 1.4em;
+		font-weight: bold;
+		text-decoration: none;
+		color: #000000;
+	}
+	
+	a{
+		/*font-weight: bold;*/
+		color: #000000;
+		text-decoration: none;
+	}
+	
+	.views-field-field-basic-web-page-summary{
+		.field-content{
+			float: left;
+			width: 95%;
+			padding-left: 10px;
+		}
+	}
+	/*
+	.views-field-field-basic-web-page-summary:after{
+		font-family: FontAwesome;
+		content: "\f0a9";
+		margin: 20px 9px 0px 5px;
+		font-size: 2.6em;
+		float: right;
+	}
+	*/
+}
+
+#region-investments-hub-main-recent-articles{
+	img{
+		width: 100%;
+		height: 100%;
+	}
+	
+	.block-title{
+		border-top: 1px solid $teal;
+		padding: 15px 0px 15px 0px;
+		text-align: center;
+		color: #000000;
+	}
+	
+	.views-row-1{  
+	  border: none !important;
+	  margin-bottom: -9%;
+	}
+	
+}
+
+#region-investments-hub-main-first-item{
+		margin-bottom: -45px;
+	}
+#region-investments-hub-main-first-item, #region-investments-hub-main-recent-articles, #region-investments-hub-content-side, #block-views-inv-investments-hub-block-2, #block-views-li-life-insurance-hub-block-2{
+	.views-field-title a{
+			display: block;
+			color: #fff;
+			font-weight: bold;
+			text-decoration: none;
+			background: rgba(0, 0, 0, 0.6);
+			/*z-index: -12;
+			padding: 20px;
+			width: 94.1%;*/
+			}
+		/*
+		.views-field-title a:after{
+			font-family: FontAwesome;
+			content: "\f0a9";
+			margin-left: 5px;
+			font-size: 1.6em;
+			float: right;
+		}
+		*/
+		.views-field-title{
+			text-align: center;
+			position: relative;
+			top: -42px; /*-67px;*/
+		}
+		
+		.views-field-field-basic-web-page-url-label a{
+			border-top: 1px solid $teal;
+			background-color: #50C9B5;
+			color: #fff;
+			display: block;
+			text-align: center;
+			text-decoration: none;
+			font-size: 1.1em;
+			margin-top: 0px;
+			padding: 0.357em;
+			font-weight: 700;
+		}
+		
+}
+
+
+#region-investments-hub-main-first-item{
+	.views-field-title a{
+			font-size: 1.6em;
+			padding: 18px;
+			}
+			
+		.views-field-title a:after{
+			font-size: 1.6em;
+		}
+		
+		.views-field-title{
+			top: -60px;
+		}
+}
+
+
+
+
+#region-investments-hub-main-recent-articles, #region-investments-hub-content-side, #block-views-inv-investments-hub-block-2, #block-views-li-life-insurance-hub-block-2{
+	
+	img{
+		width: 100%;
+		height: 100%;
+	}
+	
+	.views-field-title a{
+			font-size: 1em;
+			padding: 9px;
+			}
+		.views-field-title a:after{
+			/*font-size: 1.1em;*/
+		}
+		
+		.views-field-title{
+			/*top: -46px;*/
+		}
+}
+
+#region-investments-hub-content-side{
+	.block-title{
+		text-align: center;
+		border-top: 1px solid $teal;
+	}
+	
+	.block-inv-investments-hub-block-1{
+		/*border-bottom: 1px solid $teal;*/
+	}
+	
+	.views-row{
+			border-bottom: none !important;
+		}
+	
+}
+
+.block-views-inv-investments-hub-block{
+    .views-field-body{
+		padding: 1.5em 1.5em 0 0em;
+	}
+	.views-field-title{
+		padding: 0.5em 1.5em 0 0em;
+	}
+}
+
+#block-views-inv-investments-hub-block-2, #block-views-li-life-insurance-hub-block-2{
+	
+	border-top: 1px solid $teal;
+	
+	.views-row{
+		border: none;
+		margin-bottom: 0px;
+	}
+	
+}
+
+#block-views-inv-investments-hub-block{
+	img{
+			width: 100%;
+			height: 100%;
+			/*padding-left: 1.5em;*/
+	}
+}
+
+
+
+/*--------------category styles------------*/
+.views-row.investment-hub-categories {
+    display: block;
+    margin-bottom: 15px !important;
+    height: 40px !important;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 20px;
+	border-bottom: 0px !important;
+}
+
+.views-row.investment-hub-categories a{
+	color: #ffffff !important;
+	font-weight: bold !important;
+	text-decoration: none !important;
+	font-size: 1.2em !important;
+	display: block;
+}
+
+.views-row-1.investment-hub-categories {
+    background-color: #50C9B5;
+}
+
+.views-row-2.investment-hub-categories {
+    background-color: #5360AE;
+}
+
+.views-row-3.investment-hub-categories {
+    background-color: #AACAE6;
+}
+
+.views-row-4.investment-hub-categories {
+    background-color: #AAA38E;
+}
+
+.inv-hub-tax-title{
+	margin-bottom: 20px;
+}
+#region-investments-hub-content-main, #region-investments-hub-content-side,{
+	margin-top: 10px;
+}
+
+/*-----------------------------------------*/
+
+
+/*Breakpoint for desktop monitors - screens wider than 960px*/
+@media only screen and (min-width: 961px) {
+	
+	#region-investments-hub-main-recent-articles, #region-investments-hub-content-side, #block-views-inv-investments-hub-block-2, #block-views-li-life-insurance-hub-block-2{
+	.views-field-title a{
+			font-size: 1em;
+			width: 94.1%;
+			}
+		
+	}
+	
+	#region-investments-hub-main-first-item{
+		.views-field-title a{
+			font-size: 1.6em;
+			width: 94.1%;
+			}
+		.views-row-last{    
+			height: 360px;
+		}
+	}
+	
+	#region-investments-hub-main-fourth-item{
+		.views-row-odd, .views-row-even{
+			min-height: 380px;
+			max-height: 380px;
+		}
+
+	}
+	
+	#region-investments-hub-main-recent-articles{
+		img{
+			max-height: 135px;
+		}
+		
+		.views-row-last{    
+			height: 152px;
+		}
+	}
+	
+	#block-views-inv-investments-hub-block-2, #block-views-li-life-insurance-hub-block-2{
+	
+		.views-row-first{
+			float: left;
+			width: 48.5%;
+		}
+		
+		.views-row-last{
+			float: right;
+			width: 48.5%;
+		}
+	}
+
+#region-investments-hub-content-main{
+	
+	.view-all-related{
+		position: relative;
+		left: 103.5%;
+		top: -88px;/*-96px;*/
+		a{width: 30%;}
+	}
+}
+
+#region-investments-hub-content-side{
+	
+		.views-row{
+			border-bottom: none !important;
+			margin-bottom: -9%;
+		}
+	
+	}
+
+}
+
+
+
+/*Breakpoint for tablet screens below 959px*/
+@media only screen and (min-width: 740px) and (max-width: 960px){
+	#block-views-inv-investments-hub-block-2, #block-views-li-life-insurance-hub-block-2{
+	
+		.views-row-first{
+			float: left;
+			width: 48.5%;
+		}
+		
+		.views-row-last{
+			float: right;
+			width: 48.5%;
+		}
+		
+		.views-field-title{
+			a{
+				font-size: 0.73em;
+			}
+		}
+	}
+	
+	#region-investments-hub-main-first-item .views-field-title a {
+		font-size: 1.4em;
+	}
+	
+	#region-investments-hub-main-recent-articles{
+		
+		margin-bottom: -40px;
+		
+		.block-title{
+			padding: 6px 0px 6px 0px;
+			font-weight: bold;
+			font-size: 16px !important;
+		}
+		img{
+			width: 100%;
+			height: 104px;
+		}
+		
+		.views-field-title{
+			a{
+				font-size: 0.85em;
+			}
+		}
+		
+		.views-row-1 {
+			border: none !important;
+			margin-bottom: -35px;
+		}
+		
+		.views-row-1 {
+			border: none !important;
+		}
+		
+	}
+	
+	#region-investments-hub-content-main{
+		
+		.view-all-related{
+			position: relative;
+			left: 103.5%;
+			top: -96px;
+			a{width: 30%;}
+		}
+	}
+	
+	#region-investments-hub-content-side{
+	
+		.views-row{
+			border-bottom: none !important;
+			margin-bottom: -9%;
+		}
+		
+		.views-field-title{
+			a{
+				font-size: 0.73em;
+			}
+		}
+	
+	}
+	
+	#region-investments-hub-main-fourth-item{
+		.views-row-odd, .views-row-even{
+			min-height: 360px;
+		}
+		p{
+			margin-bottom: 0px !important;
+		}
+	}
+	
+	.views-row.investment-hub-categories {
+		height: 33px !important;
+		padding-top: 10px;
+	}
+	
+}
+
+@media only screen and (max-width: 739px) {
+	
+	#block-views-inv-investments-hub-block-2, #block-views-li-life-insurance-hub-block-2{
+	    .views-row-2{
+		position: relative;
+		top: -25px;
+		}
+	}
+	
+	#region-investments-hub-content-main{
+		.view-all-related{
+			position: relative;
+			top: -60px;
+		}
+		
+		#block-views-inv-investments-hub-block{
+			.views-field-field-basic-web-page-image{
+				margin-right: 1.5em;
+			}
+		}
+	}
+	
+	.inv-hub-content-recent-articles{
+		display: none !important;
+	}
+	
+	#region-investments-hub-main-fourth-item{
+		.views-row-odd, .views-row-even{
+			margin: 50px 0px 70px 0px;
+			background-color: #ffffff;    
+		}
+	}
+.region-investments-hub-content-side{	
+		.view-investment-hub-categories{	
+			margin-bottom: 50px;
+			margin-top: -40px;
+		}
+	}
+}
+
+@media only screen and (min-width:467px) and (max-width: 739px) {
+	#region-investments-hub-main-recent-articles{
+		
+		.views-row{
+				border-bottom: none !important;
+				margin-bottom: -20px;
+			}
+		
+		.views-row-2{  
+		  a {
+			  margin-bottom: -20px;
+		  }
+		  
+		}	
+		.views-row-3{  
+		    position: relative;
+			/*top: -20px;*/
+			}
+	}
+	
+	
+	
+		#region-investments-hub-content-side{
+	
+			.views-row{
+				border-bottom: none !important;
+				margin-bottom: -20px;
+			}
+			
+			.inv-hub-view-all-articles-side{
+				
+				margin-bottom: 60px;
+				
+			}
+	
+		}
+	
+}
+
+@media only screen and (min-width:363px) and (max-width: 467px) {
+	#region-investments-hub-main-first-item{
+		.views-field-title a{
+				font-size: 1.2em;
+		}
+	}
+	
+	#region-investments-hub-main-recent-articles{
+			
+			.views-row{
+				border-bottom: none !important;
+				margin-bottom: -30px;
+			}
+			
+			.views-row-2{  
+			  a {
+				  margin-bottom: -30px;
+			  }
+			}	
+		}
+		
+	#region-investments-hub-content-side{
+	
+			.views-row{
+				border-bottom: none !important;
+				margin-bottom: -20px;
+			}
+			
+			.inv-hub-view-all-articles-side{
+						margin-bottom: 60px;
+					
+			}
+	
+		}
+}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-width: 362px) {
+	
+	#region-investments-hub-main-first-item{
+		.views-field-title a{
+				font-size: 1.2em;
+				padding: 18px 6px;
+		}
+	}
+	
+	#region-investments-hub-main-recent-articles, #region-investments-hub-content-side, #block-views-inv-investments-hub-block-2, #block-views-li-life-insurance-hub-block-2{
+		.views-field-title a{
+				font-size: 1.2em;
+		}
+	}
+	
+	#region-investments-hub-content-side{
+		
+		.views-row{
+			margin-bottom: -20px;
+		}
+		.inv-hub-view-all-articles-side{
+					margin-bottom: 60px;
+			}
+		
+	}
+	
+	
+	
+	#region-investments-hub-main-recent-articles{
+			.views-row-2{  
+			  a {
+				  margin-bottom: -30px;
+			  }
+			}	
+		}
+}
+	
+/*^^^^^^^^^^^^^^^^^INVESTMENT HUB LANDING PAGE^^^^^^^^^^^^^^^^^^^^*/

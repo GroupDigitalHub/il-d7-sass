@@ -1,0 +1,76 @@
+/*All styles for the Irish Life Search page will be designed here */
+.gsc-search-box * {
+  -webkit-box-sizing: content-box !important;
+  -moz-box-sizing: content-box !important;
+  box-sizing: content-box !important;
+}
+.gsc-search-box *:before,
+.gsc-search-box *:after {
+  -webkit-box-sizing: content-box !important;
+  -moz-box-sizing: content-box !important;
+  box-sizing: content-box !important;
+}
+
+#region-content .search-results {
+	.title{
+		border-bottom: 3px solid $teal;
+		margin-top: 10px;
+	}
+	.title a{
+		font-weight: bold;
+		text-decoration: none;
+		color: main_purple;
+	}
+}
+.search-results li {
+margin-top: 2em;
+	margin-bottom: 1em;
+	list-style: none;
+}
+
+.search-results a {
+	list-style: none;
+}
+
+.pager {
+	background: $main_purple;
+	border-radius: 0px;
+	border: 0px;
+}
+
+.pager li.first, .pager li.first a, .pager li.first a:hover{
+	border-radius: 0px;
+}
+
+.pager li.pager-current {
+	background: $green;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, $green), color-stop(1, $green));
+	background: -moz-linear-gradient(top center, $green 100%);
+	color: $white;
+}
+
+.pager li {
+	border-right: 1px solid;
+	border-color: $white;
+}
+
+.pager li a {
+	background: $main_purple;
+	
+	color: #fff;
+}
+
+.pager li.pager-last, .pager li.pager-last a, .pager li.pager-last a:hover{
+	border-radius: 0px;
+}
+
+.pager li a:hover{
+	background: #00aad2;
+	color: $white;
+}
+
+.pager li.pager-previous a{
+	width: 70px;
+}
+
+

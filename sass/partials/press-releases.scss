@@ -1,0 +1,65 @@
+.views-widget-filter-field_bline_news_date_value {width:100%}
+.form-item-field-bline-news-date-value {display:block;font-size:1.5em;color:#5261ac}
+.form-item-field-bline-news-date-value .form-select{width:100%}
+.form-item-field-bline-news-date-value .form-radio {height:2m;width:2em}
+.press-release-link{margin-bottom:1em}
+
+.field-name-field-press-release-index .field-collection-view{
+	  padding-bottom: 1.3em;
+}
+
+.field-name-field-press-release-index .field-collection-view{
+	margin: 0;
+}
+
+.field-name-field-press-release-title, .field-name-field-press-release-title-link a{
+	font-size: 1.429em;
+	color: #5261ac;
+	text-decoration: none !important;
+}
+
+ .field-name-field-press-release-title-link a:hover{
+	text-decoration: underline !important;
+	color: #5261ac;
+}
+
+.field-name-field-press-release-image{
+	display: inline;
+	float: left;
+	margin-right: 20px;
+	img{
+		width:	150px;
+		height: 150px;
+	}
+}
+
+.field-name-field-press-releases-date{
+	display: inline;
+	float: left;
+}
+
+
+a.press-release-link {
+		background-color: $teal !important;
+		color: #ffffff;
+		display: block;
+		width: 237px;
+		text-align: center;
+		text-decoration: none;
+		font-size: 1.1em;
+		margin-top: 0.714em;
+		padding: 0.357em;
+		font-weight: 700;
+		box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3), 0 2px 0 rgba(255, 255, 255, 0.25) inset;
+		text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+		display: inline;
+		float: left;
+	}
+	a.press-release-link:hover{
+		@extend %hover_box_shadow;
+	}
+	
+.field-name-field-press-release{
+font-style: italic;
+font-weight: bold;	
+}	

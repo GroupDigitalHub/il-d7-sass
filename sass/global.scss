@@ -1,0 +1,368 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+/* latin */
+/* Welcome to Compass. 
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="Font/css" /> */
+
+/*Breakpoint variables*/
+$breakpoint-mobile-and-tablet: max-width 959px; 	/*Breakpoint for mobile and tablet screens below 959px*/
+$breakpoint-tablets: min-width 740px; 		/*Breakpoint for tablets screens above 740px*/
+$breakpoint-desktop: min-width 960px; 		/*Breakpoint for desktop monitors - screens wider than 960px*/
+
+ 
+/* Font weights*/
+$light: 100;
+$regular: 400;
+$bold: 600;
+
+/* Descriptive colour variables:*/
+$white: #ffffff;
+$main_purple:#5261ac;
+$black: #333333;
+$teal: #50C9B5;
+$warm_grey: #675C53;
+$green: #69923A;
+$dark_blue: #002664;
+$mid_blue: #5582AB;
+$very_light_grey: #EDEAED;
+$medium_grey: #AAA38E;
+$very_light_blue: #AACAE6;
+$tourquise: #00ADD0;
+$mid_purple: #502D7F;
+
+/* Functional colour variables:*/
+$header_background: $white;
+$text_color: $black;
+$link_color: $main_purple;
+$light_text:$white;
+$main_menu_background:$main_purple;
+$main_menu_text:$white;
+$main_menu_hover:$white;
+$main_menu_hover_text:$main_purple;
+$second_menu_background:$warm_grey;
+$second_menu_hover:$teal;
+
+%hover_box_shadow {-webkit-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+				-moz-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+				box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+/*border styles*/
+$thin_dotted: 0.071em dotted $very_light_grey;
+$medium_dotted: 0.143em dotted $very_light_grey;
+$thin_solid: 0.071em solid $very_light_grey;
+$medium_solid: 2px solid $teal;
+$none: none;
+
+%heading{
+	font-family: 'Lato',arial, helvetica, sans-serif !important;
+	color: $black;
+	padding-bottom: 0.2em;
+	margin-bottom: 0.0em;
+}
+
+%blockContainer {
+	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.8);	
+	display: block;
+	margin-bottom: 1.429em;
+	min-height: 0;
+	border-bottom: 3px solid $teal; 
+}
+
+
+%blockContainerNoBorderBottom {
+	border-bottom:none;
+}
+
+%normalText{
+	line-height:24px;
+	font-size:16px;
+}
+
+%landingPageBlockContainer{
+	.region-inner {
+		@extend %blockContainer;
+		.views-field-title{	 		
+			a{
+				text-decoration: none;
+				color:$warm_grey;
+				&:hover{
+					text-decoration: underline;
+				}
+			}
+		}		
+
+		padding:1.786em;
+}
+}
+
+%productPageBlockContainer{
+	.region-inner {
+		@extend %blockContainer;
+		@extend %blockContainerNoBorderBottom;
+		.views-field-title{
+	 		
+			a{
+				text-decoration: none;
+				color:$main_purple;
+				&:hover{
+					text-decoration: underline;
+				}
+			}
+		}
+
+		padding:1.5em 1.5em 0em;
+		
+		img {
+			float:right;
+		}
+		
+		.file img {float:left;margin-right:5px}
+		
+		.views-field-title{
+			display:inline-block;
+			width:80%;
+		}
+		.views-field-field-basic-web-page-summary{
+			display:inline-block;
+			width:80%;
+		}
+
+		.views-field-field-basic-web-page-url-label{
+			display:inline-block;
+		}
+
+		.views-row{
+			margin-top: 2.143em;
+		}
+	}
+}
+
+%promotedProductBlockContainer{
+	.region-inner {
+		@extend %blockContainer;
+		.views-field-title {
+	 		font-weight:700;
+			
+			a {
+				text-decoration: none;
+				color:$warm_grey;
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+		}
+		
+			
+		padding: 1.429em 1.786em 1.786em 1.786em;
+		
+		img {
+			float:left;
+			margin-right: 3%;
+			margin-top: 0.357em;
+		}
+		.views-field-title{
+			display:inline;
+			width:100%;
+		}
+		.views-field-field-basic-web-page-summary{
+			display:inline;
+			width:60%;
+		}
+		
+		.views-field-field-basic-web-page-description{
+			margin-top: 0.357em;
+		}
+
+		.views-field-field-basic-web-page-url-label{
+			display:inline-block;
+			margin-left: 2%;
+		}
+
+		.views-row{
+			margin-top: 0.714em;
+		}
+	}
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: url(/sites/all/modules/css/fonts/lato/1YwB1sO8YE1Lyjf12WNiUA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: url(/sites/all/modules/css/fonts/lato/7nLfsQCzhQW_PwpkrwroYw.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: url(/sites/all/modules/css/fonts/lato/H2DMvhDLycM56KNuAtbJYA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  src: url(/sites/all/modules/css/fonts/lato/FwqtLrCC0_ISf339uHkSZw.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  src: url(/sites/all/modules/css/fonts/lato/tI4j516nok_GrVf4dhunkg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: url(/sites/all/modules/css/fonts/lato/ayfRv9GMahGqd-q6YxHjSg.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+
+body { 
+	background-color: $white; 
+	color: $black;
+	font-family: 'Lato',arial, helvetica, sans-serif !important;
+	font-size: 14px;
+	line-height: 2em;
+	font-smooth: always;
+	
+	
+	
+	h1, h2, h3, h4, h5, h6 {
+	    letter-spacing: 0.00em;
+	}
+	
+	h1{
+		@extend %heading;
+		font-size: 2em !important; /*28px*/
+		margin: 0em 0.0em;
+		line-height: 1.143em;
+	}
+
+	h2{
+		@extend %heading;
+		font-size: 1.429em !important; /*20px*/
+		font-weight: bold;
+		color: $main_purple;
+		margin-top:0.5em;
+		a{
+			text-decoration: none !important;
+			color: $main_purple !important;
+			&:hover{
+				color:$main_purple !important;
+				text-decoration: underline !important;
+			}
+		}
+
+	}
+	h3{
+		@extend %heading;
+		font-size: 1.286em !important; /*18px*/
+		font-weight: bold !important;
+		line-height: 1.2em !important;
+	}
+	
+	h3 a{
+		@extend %heading;
+		font-weight: bold !important;
+		color: $warm_grey !important;
+		line-height: 1.2em !important;
+	}
+	
+	h4{
+		@extend %heading;
+		font-size: 1.143em !important; /*16px*/
+		font-weight: bold;
+		color: $main_purple;
+	}
+	
+	h5{
+		@extend %heading;
+		font-size: 1.1em !important; /*15px*/
+	}
+	h6{
+		@extend %heading;
+		font-size: 1em !important; /*14px*/
+	}	
+	p, .field-name-field-ilfs-regulatory-line {
+		@extend %normalText;
+		small{
+			font-size: .62em; /*8px*/
+			color: $white;
+			line-height:1.2em;
+		}
+	}
+	
+	sup{vertical-align:super}
+	
+	hr{
+		border: 0;
+		background-color: $medium_grey;
+		color: $medium_grey;
+		-webkit-box-shadow: 0 0.071em 0.286em rgba(0,0,0,.2); 
+		-moz-box-shadow: 0 0.071em 0.286em rgba(0,0,0,.2); 
+		-o-box-shadow: 0 0.071em 0.286em rgba(0,0,0,.2); 
+		box-shadow: 0 0.071em 0.286em rgba(0,0,0,.2);
+	}
+	
+	.block-title{
+		border-bottom: none;
+	}
+	
+	ul li {
+		list-style-type: square;
+	}
+	
+	.ordered-list{
+		list-style-type: decimal;
+		list-style-position: inside;
+	}	
+}
+
+textarea, select, input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"]{
+		font-size: 1em;
+		font-family: 'Lato',Arial,sans-serif;
+	}
+
+@import "partials/body";
+@import "partials/blog";
+@import "partials/buttons";
+@import "partials/header";
+@import "partials/mainmenu";
+@import "partials/front_page";
+@import "partials/pensions_hub_pages";
+@import "partials/landing_pages";
+@import "partials/content";
+@import "partials/investment-hub";
+@import "partials/pension_calculator";
+@import "partials/footer";
+@import "partials/search";
+@import "partials/print";
+@import "partials/poll";
+@import "partials/claims-stats";
+@import "partials/search_cse";
+@import "partials/press-releases";
+@import "partials/card-link-tiles-tabs"

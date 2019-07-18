@@ -1,0 +1,147 @@
+#zone-branding-wrapper{ 
+	background-color: $header_background;
+}
+
+/*#zone-preface{width:100%}*/
+
+#zone-branding{
+	padding: 0em;
+}
+
+#section-header .logo-img{
+	margin: 1.429em 0.00em 1.429em 0.0em;
+}
+
+#region-info-links-header .menu {
+	margin-bottom: 0.714em;
+	li{
+	text-decoration: none;
+	list-style: none outside none;
+	}
+}
+
+#region-search-bar-header{
+	margin: 1.1em 0em 0em 0em;
+}
+
+#search-block-form{
+	margin-top: 1.429em;
+	padding-left: 1.429em;
+	float: right;
+}
+
+#region-text-resize-header{
+	margin-top: 1.071em;
+}
+
+.form-actions input {
+	margin-right: 0.0em;
+}
+
+
+/*top menu styling*/
+.region-search-bar-header{
+	float: right;
+	
+	ul{
+        margin: 0px;;
+		padding: 16px 0px 0px 0px;
+	}
+	li{
+		display: inline;
+		padding-left: 3px;
+	}
+	li a {
+		text-decoration: none;
+	}
+	li a:hover{
+		text-decoration: underline;
+	}
+    li.first:before{
+        font-size: 1em;
+        color: $teal;
+        font-family:FontAwesome;
+        content:"\f090";
+        margin-right:10px;
+        font-size:1em}
+}
+
+
+/*Breakpoint for tablet screens below 959px*/
+@media only screen and (max-width: 739px) {
+#region-search-bar-header{
+	display:none;
+		img.gsc-branding-img{
+		display: none !important;
+		}
+	}
+#section-header {
+    margin-top: 52px;
+	
+	#region-search-bar-header{
+		margin: 0px;
+		float: left;
+	}
+	
+	ul.menu li{
+		display: block;
+		margin: 0px;
+		padding-left: 3px;
+	}
+	
+	.logo-img{
+		margin: 0px;
+	}
+}
+
+/*top menu styling*/
+.region-search-bar-header{
+	float: left;
+	
+	li.last:before{
+		font-family: FontAwesome;
+		content: "\f090";
+		margin-right: 10px;
+	}
+	li.last{
+		border-bottom: none;
+	}
+	
+	li.last, .leaf:nth-child(2){
+		display: none !important;
+	}
+	
+	ul{
+		background-color: $main_purple;
+		color: $white;
+		margin: 0px;
+		margin: 10px 0px 0px 30%;
+		padding: 0px;
+		list-style: none;
+		width: 100%;
+		text-align: center;
+	}
+	li{
+		display: block;
+		border-bottom: 1px dotted;
+		padding-left: 3px;
+		margin: 0px;
+	}
+	li a {
+		color: $white;
+		text-decoration: none;
+	}
+	li a:hover{
+		text-decoration: underline;
+	}
+	
+	
+}
+
+
+
+#section-content{position:relative;}
+
+
+
+}

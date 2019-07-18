@@ -1,0 +1,149 @@
+/*All styles for the Marketo Polls will be designed here */
+
+.quicktabs_main.quicktabs-style-sky {
+	padding: none; 
+	background: none;
+}
+
+.context-we-know-irish-life-do-you{ /*Overide existing styles for this node*/
+	body{
+		background-size: cover;
+	}
+	
+	.block-title{
+		display: none;
+	}
+	
+	#region-content{
+		margin-top: 15px;
+		margin-bottom: 0em;
+	}
+	
+	#region-landing-first-item .block-inner{
+		border-bottom: none;
+		padding: 15px;
+	}
+	
+	#region-landing-first-item .block-inner .clearfix{
+		background: none;
+		padding: 0px;
+	}
+	
+	.block-ad-campaign-poll .block-inner{
+		background: none;
+		padding: 0px;
+	}
+	
+	ul.quicktabs-tabs.quicktabs-style-sky li{
+		height: 3.35em;
+		min-height: 3.35em;
+		border-top: none;
+		margin: 0 0 0 0;
+	}
+	
+	ul.quicktabs-tabs.quicktabs-style-sky li.active {
+		margin: 0 0 0 0;
+	}
+	
+	ul.quicktabs-tabs.quicktabs-style-sky li.active a{
+		background: #435899 repeat-x bottom left;
+		border: 1px solid #eee;
+		border-color: #eee;
+		top: 0;
+	}
+	
+	ul.quicktabs-tabs.quicktabs-style-sky li.active a:hover{
+		background: #435899 repeat-x bottom left;
+	}
+	
+	ul.quicktabs-tabs.quicktabs-style-sky li a{
+		background: #F19C2B repeat-x bottom left;
+		color: #ffffff;
+		height: 3.35em;
+		line-height: 3.4em;
+	}
+	
+	ul.quicktabs-tabs.quicktabs-style-sky li a:hover{
+		background: #d88a24 repeat-x bottom left;
+	}
+		
+}
+
+/*Breakpoint for mobile screens below 739px*/
+@media only screen and (max-width: 320px) {
+	.block-ad-campaign-poll-old-school{
+		iframe{
+			width: 270px;
+			height: 955px;
+		}
+	}
+	
+	.block-ad-campaign-poll-generation-y{
+		iframe{
+			width: 270px;
+			height: 955px;
+		}
+	}
+	
+	
+	
+} 
+ 
+/*Breakpoint for landscape mobile screens above 320px and below 739px*/
+@media only screen 
+and (min-width : 321px) and (max-width: 739px){
+	.block-ad-campaign-poll-old-school{
+		iframe{
+			width: 515px;
+			height: 785px;
+		}
+	}
+	
+	.block-ad-campaign-poll-generation-y{
+		iframe{
+			width: 515px;
+			height: 785px;
+		}
+	}
+
+}
+ 
+/*Breakpoint for tablet screens below 959px*/
+@media only screen and (min-width: 740px) and (max-width: 960px) {
+	.block-ad-campaign-poll-old-school{
+		iframe{
+			width: 665px;
+			height: 785px;
+		}
+	}
+	
+	.block-ad-campaign-poll-generation-y{
+		iframe{
+			width: 665px;
+			height: 785px;
+		}
+	}
+	
+
+} 
+ 
+/*Breakpoint for desktop monitors - screens wider than 960px*/
+@media only screen and (min-width: 961px) {
+	.block-ad-campaign-poll-old-school{
+		iframe{
+			width: 880px;
+			height: 785px;
+		}
+	}
+	
+	.block-ad-campaign-poll-generation-y{
+		iframe{
+			width: 880px;
+			height: 785px;
+		}
+	}
+	
+} 
+
+
+
