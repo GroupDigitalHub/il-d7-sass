@@ -1,9 +1,51 @@
 /*All styles for my life pages on irishlife.ie go here*/
 
 #zone-mylife-content-second-wrapper{
+    height: 330px;
     background-color: $teal;
+    color: $dark_blue;
+    padding-top: 50px;
+    h2{
+        color: $dark_blue;
+    }
+    background-image: url('https://www.qairishlife.ie/sites/retail/files/my-life-images/HealthScore_Screen.png');
+    background-repeat: no-repeat;
+    background-size: 12%;
+    background-position-x: 75%;
+    background-position-y: 100%;
 }
 
 #zone-mylife-content-third-wrapper{
     background-color: $main_purple;
+    color: $white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    h2 {
+        color: $white;
+    }
+    background-image: url('https://www.qairishlife.ie/sites/retail/files/my-life-images/phone_hand.png');
+    background-repeat: no-repeat;
+    background-size: 14%;
+    background-position-x: 0%;
+    background-position-y: 100%;
 }
+
+#zone-mylife-content-fourth-wrapper{
+    background-color: $white;
+    color: $black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    h2 {
+        color: $black;
+    }
+}
+
+@media (min-device-width: 961px) and (min-width: 961px), (max-device-width: 1024px) and  (min-width: 1024px) and (orientation: landscape){
+     .region-mylife-content-third{
+        .grid6{
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        }
+    }
+}
+
