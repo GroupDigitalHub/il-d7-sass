@@ -26,7 +26,7 @@ body {
 
 	h2{
 		@extend %heading;
-		font-size: 1.429em !important; /*20px*/
+		font-size: 1.785em !important; /*25px*/
 		/*font-weight: bold;*/
 		font-weight: normal;
 		color: $main_purple;
@@ -95,7 +95,7 @@ body {
 	}
 	
 	ul li {
-		list-style-type: square;
+		/*list-style-type: square;*/
 	}
 	
 	.ordered-list{

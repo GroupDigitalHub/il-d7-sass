@@ -40,6 +40,22 @@
     }
 }
 
+@media (max-width: 470px) {
+    #zone-mylife-content-second-wrapper{
+        height: 576px;
+        background-size: 35%;
+        background-position-x: 50%;
+        background-position-y: 100%
+    }
+
+    #zone-mylife-content-third-wrapper{
+        height: 680px;
+        background-size: 55%;
+        background-position-x: 0%;
+        background-position-y: 100%
+    }
+}
+
 @media (min-device-width: 961px) and (min-width: 961px), (max-device-width: 1024px) and  (min-width: 1024px) and (orientation: landscape){
      .region-mylife-content-third{
         .grid6{
