@@ -429,11 +429,13 @@ div#zone-preface-wrapper:after {
 .zone-content-wrapper {
 	background-color: $white;
 }
-.contact-us-button a:link 
+.contact-us-button 
 {
 	background-color: #24847c;
     color: #ffffff !important;
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     text-decoration: none;
     font-size: 1.1em;
@@ -442,7 +444,8 @@ div#zone-preface-wrapper:after {
 	margin-left: 30%;
     margin-right: 30%;
     width: 40%;
-    margin-bottom: 20px;
+	margin-bottom: 20px;
+	height: 45px;
 	
 }
 .block-button-left {
@@ -635,19 +638,23 @@ h2 .block-title {
 
 /*Breakpoint for mobile screens below 450px*/
 @media only screen and (max-width: 450px) {
-	.contact-us-button a:link{background-color: #24847c;
+	.contact-us-button{background-color: #24847c;
 		color: #ffffff !important;
-		display: inline-block;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
 		text-align: center;
 		text-decoration: none;
 		font-size: 1.1em;
-		margin-top: 0.714em;
+		width: 40%;
 		padding: 0.357em;
+		margin: 0 auto;
+		height: 45px;
+		/*margin-top: 0.714em;
 		margin-left: 10px;
 		margin-left: 30%;
 		margin-right: 30%;
-		width: 40%;
-		margin-bottom: 20px;
+		margin-bottom: 20px;*/
 		
 	}
 	.block-button-left {
