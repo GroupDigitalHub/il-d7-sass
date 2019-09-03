@@ -447,7 +447,7 @@ div#zone-preface-wrapper:after {
 }
 .block-button-left {
 
-	background-color: #24847c;
+    background-color: #24847c;
     color: #ffffff !important;
     display: inline-block;
     text-align: center;
@@ -457,13 +457,19 @@ div#zone-preface-wrapper:after {
     padding: 0.357em;
     /*font-weight: 700;*/
     /*margin-left: 10px;*/
-	width: 196px;
-	margin-bottom: 20px;
+    width: 196px;
+    margin-bottom: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    height: 45px;
+    margin-right: 5px;
 }
 
 .block-button-right {
 
-	background-color: #fff;
+    background-color: #fff;
     color: #24847c !important;
     display: inline-block;
     text-align: center;
@@ -473,9 +479,15 @@ div#zone-preface-wrapper:after {
     padding: 0.357em;
     /*font-weight: 700;*/
     margin-left: 10px;
-	width: 196px;
-	border: 2px solid #24847c;
-	margin-bottom: 20px;
+    width: 196px;
+    border: 2px solid #24847c;
+    margin-bottom: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    height: 45px;
+    margin-right: 5px;
 }
 
 /*<<<<<<<<<<<<<<<<<<<<<ZONE PARRALLAX BACKGROUND IMAGES>>>>>>>>>>>>>>>>>>>*/
