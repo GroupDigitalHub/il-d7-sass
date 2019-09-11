@@ -444,6 +444,7 @@ div#zone-preface-wrapper:after {
 	margin-bottom: 20px;
 	justify-content: center;
 	align-items: center;
+	height: 45px;
 	
 }
 .block-button-left {
@@ -634,7 +635,7 @@ h2 .block-title {
 
 /*Breakpoint for mobile screens below 450px*/
 @media only screen and (max-width: 450px) {
-	.contact-us-button a:link{background-color: #24847c;
+	.contact-us-button {background-color: #24847c;
 		color: #ffffff !important;
 		display: inline-flex;
 		text-align: center;
@@ -648,6 +649,7 @@ h2 .block-title {
 		margin-bottom: 20px;
 		justify-content: center;
 		align-items: center;
+		height: 45px;
 		
 	}
 	.block-button-left {
